@@ -201,7 +201,6 @@ def salesman_track_branch_and_bound(distance_matrix):
         # print(f"progress = {len(current_node.order)}, solutions = {len(queue)}")
 
         if current_node.is_complete():
-            print("COMPLETED")
             if current_node.length < optimum_length:
                 optimum_length = current_node.length
                 optimum_order = current_node.order
