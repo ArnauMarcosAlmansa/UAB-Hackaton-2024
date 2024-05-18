@@ -11,14 +11,9 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.data.data import load_from_xlsx
 
-
-dist = np.load("C:/Users/oscar/OneDrive/Escritorio/UAB-Hackaton-2024/data/2_1.npy")
-a, b, c = load_from_xlsx("C:/Users/oscar/OneDrive/Escritorio/UAB-Hackaton-2024-master/data/Dades_Municipis.xlsx")
-
-df = pd.DataFrame(a)
-lista = df['min_stay_in_minutes'].to_numpy()
-lista = np.array(lista)
-lista1 = lista * 60
+#lista = df['min_stay_in_seconds'].to_numpy()
+#lista = np.array(lista)
+#lista1 = lista * 60
 
 # Python3 program to solve 
 # Traveling Salesman Problem using 
@@ -65,7 +60,7 @@ def secondMin(adj, i):
 # in the search space tree
 # curr_path[] -> where the solution is being stored
 # which would later be copied to final_path[]
-def TSPRec(adj, curr_bound, curr_weight, 
+def TSPRec(adj, estancia, curr_bound, curr_weight, 
 			level, curr_path, visited):
 	global final_res
 	
@@ -96,7 +91,7 @@ def TSPRec(adj, curr_bound, curr_weight,
 		if (adj[curr_path[level-1]][i] != 0 and
 							visited[i] == False):
 			temp = curr_bound
-			curr_weight += adj[curr_path[level - 1]][i]
+			curr_weight += adj[curr_path[level - 1]][i] + estancia[i]
 
 			# different computation of curr_bound 
 			# for level 2 from the other levels
@@ -116,12 +111,12 @@ def TSPRec(adj, curr_bound, curr_weight,
 				visited[i] = True
 				
 				# call TSPRec for the next level
-				TSPRec(adj, curr_bound, curr_weight, 
+				TSPRec(adj, estancia, curr_bound, curr_weight, 
 					level + 1, curr_path, visited)
 
 			# Else we have to prune the node by resetting 
 			# all changes to curr_weight and curr_bound
-			curr_weight -= adj[curr_path[level - 1]][i]
+			curr_weight -= adj[curr_path[level - 1]][i] + estancia[i]
 			curr_bound = temp
 
 			# Also reset the visited array
@@ -131,7 +126,7 @@ def TSPRec(adj, curr_bound, curr_weight,
 					visited[curr_path[j]] = True
 
 # This function sets up final_path
-def TSP(adj):
+def TSP(adj, estancia):
 	
 	# Calculate initial lower bound for the root node 
 	# using the formula 1/2 * (sum of first min + 
@@ -156,14 +151,13 @@ def TSP(adj):
 
 	# Call to TSPRec for curr_weight 
 	# equal to 0 and level 1
-	TSPRec(adj, curr_bound, 0, 1, curr_path, visited)
+	TSPRec(adj, estancia, curr_bound, 0, 1, curr_path, visited)
 
 # Driver code
 
 # Adjacency matrix for the given graph
-adj = np.load("C:/Users/oscar/OneDrive/Escritorio/UAB-Hackaton-2024/data/2_1.npy")
-N = 10
-print(N)
+adj = np.load("./data/2_1.npy")
+N = 8
 # final_path[] stores the final solution 
 # i.e. the // path of the salesman.
 final_path = [None] * (N + 1)
@@ -176,11 +170,31 @@ visited = [False] * N
 # of shortest tour.
 final_res = maxsize
 
-TSP(adj)
+dist = np.load("./data/2_1.npy")
+#Distancia de inicio a los demas
+inici_dist = np.load("./data/tarragona_2_1.npy")
+print(inici_dist)
+
+a, b, c = load_from_xlsx("./data/Dades_Municipis.xlsx")
+
+df = pd.DataFrame(a)
+#Obtencion de la estancia a las localidades
+estancia = df[df['block'] == 1]['min_stay_in_seconds'].to_numpy()
+
+#Obtención de la posicion del camino más corto desde el inicio
+min_inici_dist = np.min(inici_dist)
+pos_min_inici_dist = np.argmin(inici_dist)
+print(pos_min_inici_dist) #El objetivo de 'pos_min_inici_dist' empezar desde esa posicion el B&B y no siempre desde la posicion 0
+
+TSP(adj, estancia)
 
 print("Minimum cost :", final_res)
 print("Path Taken : ", end = ' ')
 for i in range(N + 1):
+	if i > 0:
+		print("Coste:", adj[aux][final_path[i]])
 	print(final_path[i], end = ' ')
+	aux = final_path[i]
+
 
 # This code is contributed by ng24_7
