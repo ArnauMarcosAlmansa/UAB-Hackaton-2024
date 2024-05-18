@@ -10,15 +10,15 @@ class Town:
     ine_code: str
     name: str
     population: int
-    min_stay_in_minutes: float
+    min_stay_in_seconds: float
 
 
 def convert_stay_to_minutes(stay: str):
     match stay:
         case "1 HORA":
-            return 60.0
+            return 60.0 * 60.0
         case "30 MINUTOS":
-            return 30.0
+            return 30.0 * 60.0
         case _:
             raise ValueError(f"Invalid stay: {stay}")
 
@@ -31,14 +31,14 @@ def convert_dataframe_to_towns(df: pd.DataFrame):
     name = df['Municipi'].to_list()
     population = df['Pob.'].to_list()
     min_stay = df['Estancia Minima'].to_list()
-    min_stay_in_minutes = map(convert_stay_to_minutes, min_stay)
+    min_stay_in_seconds = map(convert_stay_to_minutes, min_stay)
 
-    iter = zip(batches, block, region, ine_code, name, population, min_stay_in_minutes)
+    iter = zip(batches, block, region, ine_code, name, population, min_stay_in_seconds)
 
     towns = []
-    for batch, block, region, ine_code, name, population, min_stay_in_minutes in iter:
+    for batch, block, region, ine_code, name, population, min_stay_in_seconds in iter:
         towns.append(Town(batch=batch, block=block, region=region, ine_code=ine_code, name=name, population=population,
-                          min_stay_in_minutes=min_stay_in_minutes))
+                          min_stay_in_seconds=min_stay_in_seconds))
 
     return towns
 
