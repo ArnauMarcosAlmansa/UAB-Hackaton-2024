@@ -1,20 +1,23 @@
+import os
 
-from google.maps import routing_v2
+import requests
+
+from src.data.data import Town
 
 
-async def sample_compute_routes():
-    # Create a client
-    client = routing_v2.RoutesAsyncClient()
+def distance_matrix(towns: list[Town]):
+    towns = "|".join(map(lambda t: t.name, towns))
 
-    # Initialize request argument(s)
-    request = routing_v2.ComputeRoutesRequest(
+    print(towns)
+
+    apikey = os.environ.get('GMP_API_KEY')
+
+    res = requests.get(
+        "https://maps.googleapis.com/maps/api/distancematrix/json"
+        f"?destinations={requests.utils.quote(towns)}"
+        f"&origins={requests.utils.quote(towns)}"
+        "&units=metric"
+        f"&key={apikey}"
     )
 
-    # Make the request
-    response = await client.compute_routes(request=request)
-
-    # Handle the response
-    print(response)
-
-
-sample_compute_routes()
+    print(res.text)
