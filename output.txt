@@ -1,0 +1,757 @@
+LOTE = 2
+ORIGEN = tarragona
+BLOQUE = 1
+	SPLIT = [1, 2, 3, 4, 5]	DURATION = 23520.0
+	SPLIT = [6, 7, 8, 9, 10, 11, 12]	DURATION = 24378.0
+	SPLIT = [13, 14, 15, 17, 19]	DURATION = 22985.0
+	SPLIT = [18, 29, 16, 20, 21, 28, 24, 27]	DURATION = 26184.0
+	PATH:
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 1.0 h 22.0 min 20.0 s
+		Castellfollit de Riubregós, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 13.0 min 10.0 s
+		Prats de Rei, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 38.0 s
+		Pujalt, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 20.0 min 27.0 s
+		Sant Martí Sesgueioles, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 11.0 min 20.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 32.0 min 0.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 1.0 h 1.0 min 19.0 s
+		Argençola, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 22.0 min 12.0 s
+		Copons, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 10.0 min 18.0 s
+		Jorba, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 13.0 min 33.0 s
+		Montmaneu, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 18.0 min 21.0 s
+		Rubió, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 16.0 min 26.0 s
+		Bellprat, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 55.0 min 23.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 46.0 min 18.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 1.0 h 0.0 min 37.0 s
+		Bruc, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 48.0 s
+		Castellolí, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 23.0 min 40.0 s
+		Orpí, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 30.0 min 27.0 s
+		Vallbona d'Anoia, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 52.0 min 58.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 23.0 min 5.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 1.0 h 4.0 min 20.0 s
+		Torre de Claramunt, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 11.0 min 49.0 s
+		Carme, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 16.0 min 34.0 s
+		Santa Maria de Miralles, Anoia --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 7.0 min 28.0 s
+		Llacuna, Anoia --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 32.0 min 37.0 s
+		Conesa, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 8.0 min 21.0 s
+		Rocafort de Queralt, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 6.0 min 20.0 s
+		Forès, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 43.0 min 11.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 16.0 min 24.0 s
+
+BIEN
+LOTE = 2
+ORIGEN = tarragona
+BLOQUE = 2
+	SPLIT = [1, 2, 3, 4]	DURATION = 25710.0
+	SPLIT = [5, 6, 7, 8, 9, 10]	DURATION = 26399.0
+	SPLIT = [20, 19, 21, 22, 11]	DURATION = 22852.0
+	SPLIT = [12, 13, 15, 18, 16]	DURATION = 24811.0
+	PATH:
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 46.0 min 0.0 s
+		Font-rubí, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 25.0 min 47.0 s
+		Pontons, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 51.0 s
+		Cabanyes, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 43.0 min 32.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 8.0 min 30.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 41.0 min 9.0 s
+		Pacs del Penedès, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 16.0 min 54.0 s
+		Sant Cugat Sesgarrigues, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 23.0 s
+		Santa Fe del Penedès, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 12.0 min 49.0 s
+		Vilobí del Penedès, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 21.0 min 10.0 s
+		Albinyana, Baix Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 31.0 min 43.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 19.0 min 59.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 40.0 min 31.0 s
+		Montmell, Baix Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 15.0 min 6.0 s
+		Masllorenç, Baix Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 59.0 s
+		Salomó, Tarragonès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 10.0 min 32.0 s
+		Bonastre, Baix Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 27.0 min 59.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 20.0 min 52.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 30.0 min 5.0 s
+		Santa Oliva, Baix Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 38.0 min 28.0 s
+		Olivella, Garraf --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 23.0 min 52.0 s
+		Puigdàlber, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 12.0 min 11.0 s
+		Sant Llorenç d'Hortons, Alt Penedès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 51.0 min 11.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 53.0 min 31.0 s
+
+BIEN
+LOTE = 2
+ORIGEN = tarragona
+BLOQUE = 3
+	SPLIT = [1, 2, 3, 4]	DURATION = 24180.0
+	SPLIT = [5, 6, 7, 8, 9, 10]	DURATION = 26431.0
+	SPLIT = [11, 12, 14, 16, 24, 18, 15]	DURATION = 26492.0
+	PATH:
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 28.0 min 22.0 s
+		Pira, Conca de Barberà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 24.0 min 6.0 s
+		Senan, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 39.0 min 36.0 s
+		Cabra del Camp, Alt Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 34.0 min 38.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 43.0 min 0.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 39.0 min 58.0 s
+		Querol, Alt Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 13.0 min 38.0 s
+		Pontils, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 33.0 min 57.0 s
+		Figuerola del Camp, Alt Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 18.0 min 20.0 s
+		Montferri, Alt Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 13.0 s
+		Vallclara, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 38.0 min 7.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 20.0 min 31.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 43.0 min 46.0 s
+		Vilanova de Prades, Conca de Barberà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 39.0 min 21.0 s
+		Mont-ral, Alt Camp --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 30.0 min 40.0 s
+		Vilaverd, Conca de Barberà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 39.0 s
+		Masó, Alt Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 2.0 min 34.0 s
+		Rourell, Alt Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 6.0 min 51.0 s
+		Garidells, Alt Camp --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 12.0 min 5.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 21.0 min 32.0 s
+
+BIEN
+LOTE = 2
+ORIGEN = tarragona
+BLOQUE = 4
+	SPLIT = [1, 2, 3, 4, 5]	DURATION = 25341.0
+	SPLIT = [6, 7, 14, 9, 8, 10]	DURATION = 26358.0
+	SPLIT = [11, 12, 13, 15, 16, 19]	DURATION = 24592.0
+	PATH:
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 21.0 min 18.0 s
+		Botarell, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 22.0 min 23.0 s
+		Colldejou, Baix Camp --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 15.0 min 51.0 s
+		Pratdip, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 23.0 min 11.0 s
+		Vilanova d'Escornalbou, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 26.0 min 5.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 2.0 min 21.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 19.0 min 40.0 s
+		Aleixar, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 0.0 s
+		Alforja, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 15.0 min 1.0 s
+		Vilaplana, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 3.0 s
+		Maspujols, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 25.0 min 12.0 s
+		Riudecols, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 21.0 min 30.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 7.0 h 19.0 min 18.0 s
+
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		>>> 0.0 h 37.0 min 7.0 s
+		Arbolí, Baix Camp --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 37.0 min 13.0 s
+		Capafonts, Baix Camp --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 13.0 min 31.0 s
+		Febró, Baix Camp --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 24.0 min 22.0 s
+		Albiol, Baix Camp --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 25.0 min 22.0 s
+		Vilallonga del Camp, Tarragonès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 11.0 min 44.0 s
+		Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+		TOTAL: 6.0 h 49.0 min 52.0 s
+
+BIEN
+LOTE = 4
+ORIGEN = girona
+BLOQUE = 1
+	SPLIT = [1, 2, 3, 4, 5]	DURATION = 23416.0
+	SPLIT = [6, 7, 8, 9, 10, 11]	DURATION = 23046.0
+	SPLIT = [12, 13, 14, 21, 20, 18, 19]	DURATION = 22751.0
+	SPLIT = [17, 25, 16, 22, 24, 23]	DURATION = 23942.0
+	PATH:
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 34.0 min 38.0 s
+		Torroella de Fluvià, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 11.0 min 8.0 s
+		Vilaür, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 15.0 min 18.0 s
+		Vilamacolum, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 14.0 min 31.0 s
+		Siurana, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 33.0 min 55.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 30.0 min 16.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 30.0 min 33.0 s
+		Garrigàs, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 10.0 min 49.0 s
+		Far d'Empordà, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 7.0 min 18.0 s
+		Fortià, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 3.0 min 29.0 s
+		Riumors, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 11.0 min 11.0 s
+		Vila-sacra, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 36.0 min 29.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 24.0 min 6.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 40.0 min 14.0 s
+		Cabanes, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 20.0 min 15.0 s
+		Pau, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 5.0 min 46.0 s
+		Pedret i Marzà, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 11.0 min 34.0 s
+		Vilamaniscle, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 7.0 min 52.0 s
+		Rabós, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 12.0 min 48.0 s
+		Espolla, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 46.0 min 25.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 19.0 min 11.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 40.0 min 55.0 s
+		Masarac, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 18.0 min 52.0 s
+		Vilafant, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 6.0 min 4.0 s
+		Avinyonet de Puigventós, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 10.0 min 47.0 s
+		Ordis, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 12.0 min 35.0 s
+		Palau de Santa Eulàlia, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 34.0 min 41.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 39.0 min 2.0 s
+
+BIEN
+LOTE = 4
+ORIGEN = girona
+BLOQUE = 2
+	SPLIT = [1, 2, 3]	DURATION = 24149.0
+	SPLIT = [4, 5, 6, 7, 9]	DURATION = 24354.0
+	SPLIT = [10, 11, 25, 12, 14, 13]	DURATION = 22482.0
+	SPLIT = [15, 17, 19, 18, 8, 16, 24]	DURATION = 26291.0
+	PATH:
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 37.0 min 2.0 s
+		Sant Aniol de Finestres, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 59.0 min 45.0 s
+		Sant Ferriol, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 49.0 min 48.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 42.0 min 29.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 35.0 min 6.0 s
+		Argelaguer, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 22.0 min 5.0 s
+		Riudaura, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 22.0 min 29.0 s
+		Sant Jaume de Llierca, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 42.0 s
+		Montagut i Oix, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 54.0 min 15.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 45.0 min 54.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 40.0 min 12.0 s
+		Sales de Llierca, Garrotxa --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 3.0 min 41.0 s
+		Tortellà, Garrotxa --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 15.0 min 5.0 s
+		Beuda, Garrotxa --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 20.0 min 37.0 s
+		Navata, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 5.0 min 54.0 s
+		Cabanelles, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 37.0 min 49.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 14.0 min 42.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 40.0 min 47.0 s
+		Vilanant, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 10.0 min 25.0 s
+		Cistella, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 11.0 min 42.0 s
+		Terrades, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 6.0 min 0.0 s
+		Sant Llorenç de la Muga, Alt Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 37.0 s
+		Albanyà, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 20.0 min 55.0 s
+		Biure, Alt Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 40.0 min 15.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 7.0 h 18.0 min 11.0 s
+
+BIEN
+LOTE = 4
+ORIGEN = girona
+BLOQUE = 3
+	SPLIT = [1, 2, 3, 4]	DURATION = 24557.0
+	SPLIT = [5, 6, 7, 8, 9, 11]	DURATION = 25700.0
+	SPLIT = [10, 23, 12, 25, 24, 13, 21, 20]	DURATION = 25187.0
+	PATH:
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 44.0 min 47.0 s
+		Regencós, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 12.0 min 20.0 s
+		Vall-llobrega, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 26.0 min 25.0 s
+		Forallac, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 44.0 min 46.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 49.0 min 17.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 33.0 min 54.0 s
+		Parlavà, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 50.0 s
+		Pera, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 7.0 s
+		Rupià, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 40.0 s
+		Corçà, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 49.0 s
+		Gualta, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 39.0 min 54.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 7.0 h 8.0 min 20.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 43.0 min 50.0 s
+		Fontanilles, Baix Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 9.0 min 7.0 s
+		Torrent, Baix Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 13.0 min 43.0 s
+		Serra de Daró, Baix Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 4.0 min 1.0 s
+		Ullastret, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 38.0 s
+		Ultramort, Baix Empordà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 8.0 min 5.0 s
+		Ullà, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 4.0 min 48.0 s
+		Albons, Baix Empordà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 36.0 min 26.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 59.0 min 47.0 s
+
+BIEN
+LOTE = 4
+ORIGEN = girona
+BLOQUE = 4
+	SPLIT = [1, 2, 3, 4, 5]	DURATION = 26853.0
+	SPLIT = [6, 7, 8, 9]	DURATION = 21598.0
+	SPLIT = [10, 12, 13, 15, 14, 22]	DURATION = 26652.0
+	SPLIT = [16, 23, 18, 19, 20, 21]	DURATION = 23587.0
+	PATH:
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 11.0 min 8.0 s
+		Llambilles, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 12.0 min 22.0 s
+		Sant Andreu Salou, Gironès --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 27.0 min 19.0 s
+		Massanes, Selva --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 20.0 min 7.0 s
+		Aiguaviva, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 8.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 7.0 h 27.0 min 33.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 28.0 min 29.0 s
+		Sant Martí de Llémena, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 33.0 min 45.0 s
+		Brunyola i Sant Martí Sapresa, Selva --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 23.0 min 21.0 s
+		Susqueda, Selva --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 8.0 min 40.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 5.0 h 59.0 min 58.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 34.0 min 19.0 s
+		Sant Miquel de
+Campmajor, Pla Estany --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 13.0 min 13.0 s
+		Camós, Pla Estany --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 20.0 min 34.0 s
+		Juià, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 5.0 min 6.0 s
+		Sant Martí Vell, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 6.0 min 39.0 s
+		Sant Joan de Mollet, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 24.0 min 17.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 7.0 h 24.0 min 12.0 s
+
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		>>> 0.0 h 21.0 min 9.0 s
+		Cervià de Ter, Gironès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 6.0 min 20.0 s
+		Viladasens, Gironès --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 11.0 min 43.0 s
+		Vilademuls, Pla Estany --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 18.0 min 34.0 s
+		Crespià, Pla Estany --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 4.0 min 54.0 s
+		Fontcoberta, Pla Estany --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 24.0 min 51.0 s
+		Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+		TOTAL: 6.0 h 33.0 min 7.0 s
+
+BIEN
+LOTE = 5
+ORIGEN = barcelona
+BLOQUE = 1
+	SPLIT = [1, 2, 3]	DURATION = 22343.0
+	SPLIT = [4, 5, 6, 7]	DURATION = 22950.0
+	SPLIT = [8, 9, 12, 11, 22]	DURATION = 23074.0
+	SPLIT = [23, 13, 10, 21, 20]	DURATION = 21934.0
+	SPLIT = [19, 18, 17, 16, 15]	DURATION = 21240.0
+	PATH:
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 0.0 h 32.0 min 9.0 s
+		Castellví de Rosanes, Baix Llobreg.t --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 55.0 s
+		Rellinars, Vallès Occidental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 50.0 min 7.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 12.0 min 23.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 0.0 h 35.0 min 28.0 s
+		Ullastrell, Vallès Occidental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 45.0 min 12.0 s
+		Òrrius, Maresme --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 30.0 min 27.0 s
+		Vallgorguina, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 50.0 min 6.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 22.0 min 30.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 0.0 h 43.0 min 57.0 s
+		Vilalba Sasserra, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 58.0 s
+		Campins, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 21.0 min 5.0 s
+		Gualba, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 16.0 min 29.0 s
+		Montseny, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 4.0 min 50.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 24.0 min 34.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 0.0 h 53.0 min 48.0 s
+		Sant Esteve de Palautordera, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 21.0 min 10.0 s
+		Sant Pere de Vilamajor, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 9.0 min 10.0 s
+		Cànoves i Samalús, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 19.0 min 11.0 s
+		Tagamanent, Vallès Oriental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 44.0 min 25.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 5.0 min 34.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 0.0 h 56.0 min 53.0 s
+		Gallifa, Vallès Occidental --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 14.0 min 16.0 s
+		Sant Llorenç Savall, Vallès Occidental --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 44.0 min 27.0 s
+		Talamanca, Bages --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 12.0 min 6.0 s
+		Castellgalí, Bages --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 44.0 min 32.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 5.0 h 54.0 min 0.0 s
+
+BIEN
+LOTE = 5
+ORIGEN = barcelona
+BLOQUE = 2
+	SPLIT = [1, 2, 3]	DURATION = 21832.0
+	SPLIT = [4, 5, 6, 7, 8]	DURATION = 22300.0
+	SPLIT = [9, 10, 11, 12, 13]	DURATION = 23356.0
+	SPLIT = [14, 15, 20, 21, 16, 23]	DURATION = 23386.0
+	PATH:
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 9.0 min 37.0 s
+		Fonollosa, Bages --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 37.0 s
+		Castellnou de Bages, Bages --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 8.0 min 26.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 3.0 min 52.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 9.0 min 17.0 s
+		Sant Mateu de Bages, Bages --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 42.0 min 52.0 s
+		Granera, Moianès --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 0.0 min 23.0 s
+		Monistrol de Calders, Moianès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 15.0 min 22.0 s
+		Calders, Moianès --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 6.0 min 31.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 11.0 min 40.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 2.0 min 51.0 s
+		Castellcir, Moianès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 16.0 min 58.0 s
+		Collsuspina, Moianès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 12.0 min 16.0 s
+		Estany, Moianès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 23.0 min 50.0 s
+		Viver i Serrateix, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 16.0 min 21.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 29.0 min 16.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 18.0 min 8.0 s
+		Sagàs, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 14.0 min 2.0 s
+		Santa Maria de Merlès, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 15.0 min 56.0 s
+		Olvan, Berguedà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 17.0 min 43.0 s
+		Lluçà, Lluçanès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 8.0 min 55.0 s
+		Alpens, Lluçanès --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 22.0 min 0.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 29.0 min 46.0 s
+
+BIEN
+LOTE = 5
+ORIGEN = barcelona
+BLOQUE = 3
+	SPLIT = [1, 2, 3]	DURATION = 21123.0
+	SPLIT = [4, 5, 6, 7]	DURATION = 21225.0
+	SPLIT = [8, 9, 10, 11, 12]	DURATION = 23335.0
+	SPLIT = [13, 16, 19, 20, 18, 21]	DURATION = 20521.0
+	SPLIT = [15, 14, 17, 22, 24, 23]	DURATION = 23605.0
+	PATH:
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 10.0 min 10.0 s
+		Muntanyola, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 27.0 min 23.0 s
+		Santa Eugènia de Berga, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 4.0 min 6.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 5.0 h 52.0 min 3.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 8.0 min 33.0 s
+		Santa Eulàlia de Riuprimer, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 33.0 min 50.0 s
+		Vilanova de Sau, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 37.0 min 11.0 s
+		Gurb, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 3.0 min 22.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 5.0 h 53.0 min 45.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 10.0 min 20.0 s
+		Masies de Roda, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 13.0 min 55.0 s
+		Santa Cecília de Voltregà, Osona --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 43.0 min 57.0 s
+		Tavertet, Osona --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 25.0 min 16.0 s
+		Sant Bartomeu del Grau, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 1.0 h 14.0 min 45.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 28.0 min 55.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 9.0 min 5.0 s
+		Masies de Voltregà, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 19.0 min 34.0 s
+		Santa Maria de Besora, Osona --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 10.0 min 56.0 s
+		Vidrà, Osona --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 22.0 min 15.0 s
+		Montesquiu, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 10.0 min 12.0 s
+		Sant Agustí de Lluçanès, Osona --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 24.0 min 42.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 5.0 h 42.0 min 1.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 31.0 min 30.0 s
+		Sant Boi de Lluçanès, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 25.0 min 4.0 s
+		Orís, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 13.0 min 55.0 s
+		Sant Vicenç de Torelló, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 18.0 min 35.0 s
+		Tavèrnoles, Osona --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 18.0 min 24.0 s
+		Sant Sadurní d'Osormort, Osona --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 14.0 min 39.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 33.0 min 25.0 s
+
+BIEN
+LOTE = 5
+ORIGEN = barcelona
+BLOQUE = 4
+	SPLIT = [1, 2, 3, 4]	DURATION = 21697.0
+	SPLIT = [5, 6, 7, 8, 9]	DURATION = 19908.0
+	SPLIT = [10, 11, 12, 13, 14]	DURATION = 22359.0
+	SPLIT = [15, 16, 17, 18, 19]	DURATION = 22370.0
+	SPLIT = [20, 21, 22, 28, 29]	DURATION = 19087.0
+	PATH:
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 20.0 min 3.0 s
+		Montclar, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 35.0 min 45.0 s
+		Capolat, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 21.0 min 45.0 s
+		Fígols, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 31.0 min 26.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 1.0 min 37.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 33.0 min 27.0 s
+		Nou de Berguedà, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 38.0 min 14.0 s
+		Quar, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 27.0 min 58.0 s
+		Vilada, Berguedà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 30.0 min 32.0 s
+		Vallfogona de Ripollès, Ripollès --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 42.0 min 41.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 5.0 h 31.0 min 48.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 37.0 min 47.0 s
+		Borredà, Berguedà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 19.0 min 5.0 s
+		Castell de l'Areny, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 28.0 min 0.0 s
+		Sant Jaume de Frontanyà, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 42.0 min 57.0 s
+		Sant Julià de Cerdanyola, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 35.0 min 12.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 12.0 min 39.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 48.0 min 11.0 s
+		Gisclareny, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 42.0 min 51.0 s
+		Saldes, Berguedà --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 11.0 min 11.0 s
+		Gósol, Berguedà --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 57.0 min 15.0 s
+		Campelles, Ripollès --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 46.0 min 9.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 6.0 h 12.0 min 50.0 s
+
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		>>> 1.0 h 39.0 min 13.0 s
+		Gombrèn, Ripollès --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 32.0 min 27.0 s
+		Planoles, Ripollès --- 1.0 h 0.0 min 0.0 s
+		>>> 0.0 h 15.0 min 21.0 s
+		Toses, Ripollès --- 0.0 h 30.0 min 0.0 s
+		>>> 0.0 h 35.0 min 42.0 s
+		Queralbs, Ripollès --- 0.0 h 30.0 min 0.0 s
+		>>> 1.0 h 50.0 min 7.0 s
+		Av les Garrigues, 9, 08820, El Prat de Llobregat
+		TOTAL: 5.0 h 18.0 min 7.0 s
+
+BIEN
