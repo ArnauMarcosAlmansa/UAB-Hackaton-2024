@@ -16,7 +16,7 @@ Com que la localització dels punts inicials de sortida de les furgonetes no es 
 ## Resolució del problema
 Per abordar aquest repte, hem utilitzat l'algoritme de Branch&Bound per obtenir un camí òptim. Aquest algoritme calcula un primer camí per aconseguir límits superiors i inferiors, permetent-nos així podar altres camins que no siguin més òptims que el camí òptim trobat fins al moment.
 
-![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/img/B&B.png "Exemple de funcionament de B&B")
+![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/blob/master/img/B%26B.png "Exemple de funcionament de B&B")
 
 El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src/run_bandb.py', el qual importa les funcions dels arxius 'src/algorithms/bandb.py' i 'src/algorithms/workday_splitting.py'. Gràcies a això, podem obtenir un camí òptim i dividir-lo en camins més petits per tal que es puguin implementar en els dies i les hores laborables.
 
