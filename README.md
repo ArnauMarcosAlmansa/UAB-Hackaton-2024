@@ -20,5 +20,10 @@ Per abordar aquest repte, hem utilitzat l'algoritme de Branch&Bound per obtenir 
 
 El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src/run_bandb.py', el qual importa les funcions dels arxius 'src/algorithms/bandb.py' i 'src/algorithms/workday_splitting.py'. Gràcies a això, podem obtenir un camí òptim i dividir-lo en camins més petits per tal que es puguin implementar en els dies i les hores laborables.
 
-## Dependencies
+## Resultats
+Gracies a l'archiu anteriorment mencionat, el 'src/run_bandb.py', també podem visualitzar el camí resultant en un '.html':
 
+![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/img/map_2_1_0.png "Camí del Lot-2 i bloc-1")
+![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/img/map_2_1_1.png "Camí del Lot-2 i bloc-2")
+![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/img/map_2_1_2.png "Camí del Lot-2 i bloc-3")
+![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/img/map_2_1_3.png "Camí del Lot-2 i bloc-4")
