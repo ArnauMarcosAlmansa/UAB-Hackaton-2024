@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e3d31bc3be65d21c883e5f6763971f00 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e3d31bc3be65d21c883e5f6763971f00" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e3d31bc3be65d21c883e5f6763971f00 = L.map(
+                "map_e3d31bc3be65d21c883e5f6763971f00",
+                {
+                    center: [41.324644048, 1.251774844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d65c91f829c6a2daff54fe802a3b3529 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d65c91f829c6a2daff54fe802a3b3529.addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            var marker_f23d78c2bb3ceafc56a54831a776f136 = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            var icon_a6951863ad84a9c88cd95f38102610fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f23d78c2bb3ceafc56a54831a776f136.setIcon(icon_a6951863ad84a9c88cd95f38102610fb);
+        
+    
+            marker_f23d78c2bb3ceafc56a54831a776f136.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8619408fdb0020337c38ff0069805049 = L.marker(
+                [41.4234114, 1.202821],
+                {}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            var icon_34e1235f626b41112bab4b111255f041 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8619408fdb0020337c38ff0069805049.setIcon(icon_34e1235f626b41112bab4b111255f041);
+        
+    
+            marker_8619408fdb0020337c38ff0069805049.bindTooltip(
+                `<div>
+                     Pira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5532f3918cbd287b283543a2ad9ef421 = L.marker(
+                [41.4700596, 1.0875048],
+                {}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            var icon_e8920afabf0ba4c8a04f80b16535ee21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5532f3918cbd287b283543a2ad9ef421.setIcon(icon_e8920afabf0ba4c8a04f80b16535ee21);
+        
+    
+            marker_5532f3918cbd287b283543a2ad9ef421.bindTooltip(
+                `<div>
+                     Senan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58eac53873b0b6b90306e46b45b4bd6e = L.marker(
+                [41.3296224, 1.3586793],
+                {}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            var icon_e0a43177d48240090c971d276bd641f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58eac53873b0b6b90306e46b45b4bd6e.setIcon(icon_e0a43177d48240090c971d276bd641f8);
+        
+    
+            marker_58eac53873b0b6b90306e46b45b4bd6e.bindTooltip(
+                `<div>
+                     Aiguamúrcia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1dc3f414b300af26c331a82529120c65 = L.marker(
+                [41.40391, 1.2987349],
+                {}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            var icon_f241b6ccc97bf3198f1aaea0407f8e91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1dc3f414b300af26c331a82529120c65.setIcon(icon_f241b6ccc97bf3198f1aaea0407f8e91);
+        
+    
+            marker_1dc3f414b300af26c331a82529120c65.bindTooltip(
+                `<div>
+                     Cabra del Camp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f07b31b9e56c2e65a6cfe17b61e6eedc = L.polyline(
+                [[41.1415583, 1.2202436], [41.4234114, 1.202821]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            poly_line_f07b31b9e56c2e65a6cfe17b61e6eedc.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Pira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3e41fa2479b7af33d901b3748594af0d = L.polyline(
+                [[41.4234114, 1.202821], [41.4700596, 1.0875048]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            poly_line_3e41fa2479b7af33d901b3748594af0d.bindTooltip(
+                `<div>
+                     De Pira a Senan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_fa648d0c596620d4fd5022341635b9b2 = L.polyline(
+                [[41.4700596, 1.0875048], [41.3296224, 1.3586793]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            poly_line_fa648d0c596620d4fd5022341635b9b2.bindTooltip(
+                `<div>
+                     De Senan a Aiguamúrcia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_12b658c4693d949f1ee7c8ff34d8d27b = L.polyline(
+                [[41.3296224, 1.3586793], [41.40391, 1.2987349]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            poly_line_12b658c4693d949f1ee7c8ff34d8d27b.bindTooltip(
+                `<div>
+                     De Aiguamúrcia a Cabra del Camp
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ebc66035ea6974601f1b8bedeb98413b = L.polyline(
+                [[41.40391, 1.2987349], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e3d31bc3be65d21c883e5f6763971f00);
+        
+    
+            poly_line_ebc66035ea6974601f1b8bedeb98413b.bindTooltip(
+                `<div>
+                     De Cabra del Camp a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

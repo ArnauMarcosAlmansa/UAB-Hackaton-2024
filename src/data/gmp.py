@@ -39,3 +39,18 @@ def distance_array(origin: Town, towns: list[Town]):
                                  destination.name + ', ' + destination.region)
 
     return time_array
+
+
+def coords(towns: list[Town]):
+    apikey = os.environ.get('GMP_API_KEY')
+
+    all_coords = np.zeros((len(towns), 2))
+    for i, town in enumerate(towns):
+        res = requests.get(f"https://maps.googleapis.com/maps/api/geocode/json?address={requests.utils.quote(town.name + ', ' + town.region)}&key={apikey}")
+        res = res.json()
+        coords = res["results"][0]["geometry"]["location"]
+        all_coords[i, 0] = coords["lat"]
+        all_coords[i, 1] = coords["lng"]
+
+    return all_coords
+

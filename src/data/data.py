@@ -11,6 +11,8 @@ class Town:
     name: str
     population: int
     min_stay_in_seconds: float
+    lat: float = None
+    lon: float = None
 
 
 def convert_stay_to_minutes(stay: str):

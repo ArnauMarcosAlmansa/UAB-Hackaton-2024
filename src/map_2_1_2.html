@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3a9cfc2ec88d87a05f7552ec8dd4b142 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3a9cfc2ec88d87a05f7552ec8dd4b142" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3a9cfc2ec88d87a05f7552ec8dd4b142 = L.map(
+                "map_3a9cfc2ec88d87a05f7552ec8dd4b142",
+                {
+                    center: [41.58599656333333, 1.4764925133333333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1a4c0fe45b9a446f9527d8325c5a7d99 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1a4c0fe45b9a446f9527d8325c5a7d99.addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var marker_307cd66559ebca25e20e943dafd4f25e = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var icon_7a1c3be20e4f66786df7a042694e612b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_307cd66559ebca25e20e943dafd4f25e.setIcon(icon_7a1c3be20e4f66786df7a042694e612b);
+        
+    
+            marker_307cd66559ebca25e20e943dafd4f25e.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b624ac05ab704954d78b2b55d172187 = L.marker(
+                [41.5805938, 1.7799034],
+                {}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var icon_473e07dd83d023887998851976a9167a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5b624ac05ab704954d78b2b55d172187.setIcon(icon_473e07dd83d023887998851976a9167a);
+        
+    
+            marker_5b624ac05ab704954d78b2b55d172187.bindTooltip(
+                `<div>
+                     Bruc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b20c8e84383eaf9ab0e4a1ed569722c = L.marker(
+                [41.598018, 1.6997629],
+                {}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var icon_4d22689f36530a596d21daa2a00e5ddf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b20c8e84383eaf9ab0e4a1ed569722c.setIcon(icon_4d22689f36530a596d21daa2a00e5ddf);
+        
+    
+            marker_8b20c8e84383eaf9ab0e4a1ed569722c.bindTooltip(
+                `<div>
+                     Castellolí
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_25d6d276066a00f3b2c40807566b421a = L.marker(
+                [41.5186628, 1.5756656],
+                {}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var icon_16e47371af66a48575de942c68970b0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_25d6d276066a00f3b2c40807566b421a.setIcon(icon_16e47371af66a48575de942c68970b0e);
+        
+    
+            marker_25d6d276066a00f3b2c40807566b421a.bindTooltip(
+                `<div>
+                     Orpí
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5df958184196283a125cf984a4111ca4 = L.marker(
+                [41.4936117, 1.710095],
+                {}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var icon_9d1789ac5c8610a5f4a3b019e53fa051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5df958184196283a125cf984a4111ca4.setIcon(icon_9d1789ac5c8610a5f4a3b019e53fa051);
+        
+    
+            marker_5df958184196283a125cf984a4111ca4.bindTooltip(
+                `<div>
+                     Cabrera d'Anoia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f6241a9d5a19985f8c573412d33194e3 = L.marker(
+                [41.5183109, 1.7075563],
+                {}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            var icon_3cc20d665fb7e8f7202fe4de2f16df0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f6241a9d5a19985f8c573412d33194e3.setIcon(icon_3cc20d665fb7e8f7202fe4de2f16df0b);
+        
+    
+            marker_f6241a9d5a19985f8c573412d33194e3.bindTooltip(
+                `<div>
+                     Vallbona d'Anoia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6046409f93841999734217c99e61ca5f = L.polyline(
+                [[41.1415583, 1.2202436], [41.5805938, 1.7799034]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            poly_line_6046409f93841999734217c99e61ca5f.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Bruc
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_530371f8bbbbf1870d9c7e8633d06732 = L.polyline(
+                [[41.5805938, 1.7799034], [41.598018, 1.6997629]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            poly_line_530371f8bbbbf1870d9c7e8633d06732.bindTooltip(
+                `<div>
+                     De Bruc a Castellolí
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1f4fdd74251836d15bbd397d91aac022 = L.polyline(
+                [[41.598018, 1.6997629], [41.5186628, 1.5756656]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            poly_line_1f4fdd74251836d15bbd397d91aac022.bindTooltip(
+                `<div>
+                     De Castellolí a Orpí
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_646552a21a8d4c239a9c109d08638386 = L.polyline(
+                [[41.5186628, 1.5756656], [41.4936117, 1.710095]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            poly_line_646552a21a8d4c239a9c109d08638386.bindTooltip(
+                `<div>
+                     De Orpí a Cabrera d'Anoia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f3cea261e153787fe9825a970117f54f = L.polyline(
+                [[41.4936117, 1.710095], [41.5183109, 1.7075563]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            poly_line_f3cea261e153787fe9825a970117f54f.bindTooltip(
+                `<div>
+                     De Cabrera d'Anoia a Vallbona d'Anoia
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_114f7a822287c6df29c497d54c59f5dd = L.polyline(
+                [[41.5183109, 1.7075563], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3a9cfc2ec88d87a05f7552ec8dd4b142);
+        
+    
+            poly_line_114f7a822287c6df29c497d54c59f5dd.bindTooltip(
+                `<div>
+                     De Vallbona d'Anoia a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

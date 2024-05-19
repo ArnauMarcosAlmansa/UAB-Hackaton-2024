@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_369bb0b42cb471a6e5994bebb21ef6ff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_369bb0b42cb471a6e5994bebb21ef6ff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_369bb0b42cb471a6e5994bebb21ef6ff = L.map(
+                "map_369bb0b42cb471a6e5994bebb21ef6ff",
+                {
+                    center: [41.34593640869565, 1.6216563565217392],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_589ae877f9f0b5cab3a954b4557f680c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_589ae877f9f0b5cab3a954b4557f680c.addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var marker_aa2af2a62797e04e58dfa7fb04304255 = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var icon_0246da633871d9a8fe39ce9db1656af6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa2af2a62797e04e58dfa7fb04304255.setIcon(icon_0246da633871d9a8fe39ce9db1656af6);
+        
+    
+            marker_aa2af2a62797e04e58dfa7fb04304255.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78b15ef246f5e99477077ae7421b216d = L.marker(
+                [41.3414537, 1.4918235],
+                {}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var icon_9cee0350a8075284856525eb7d402a17 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78b15ef246f5e99477077ae7421b216d.setIcon(icon_9cee0350a8075284856525eb7d402a17);
+        
+    
+            marker_78b15ef246f5e99477077ae7421b216d.bindTooltip(
+                `<div>
+                     Montmell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cda22925f7ebf1b7cc7b4aee8871de52 = L.marker(
+                [41.27029599999999, 1.4162937],
+                {}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var icon_971f1f5bad3a6dbb807a98a4473a4d6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cda22925f7ebf1b7cc7b4aee8871de52.setIcon(icon_971f1f5bad3a6dbb807a98a4473a4d6d);
+        
+    
+            marker_cda22925f7ebf1b7cc7b4aee8871de52.bindTooltip(
+                `<div>
+                     Masllorenç
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c885f1c7f788fe8b2785b24b7184aca1 = L.marker(
+                [41.2287448, 1.3746587],
+                {}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var icon_18c647914cde373ee9428c9b20c8a884 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c885f1c7f788fe8b2785b24b7184aca1.setIcon(icon_18c647914cde373ee9428c9b20c8a884);
+        
+    
+            marker_c885f1c7f788fe8b2785b24b7184aca1.bindTooltip(
+                `<div>
+                     Salomó
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d4a8b40cefd7050feb675b637f5b800c = L.marker(
+                [41.203398, 1.3599568],
+                {}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var icon_426db988b5414218636f1d8e100eb58f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d4a8b40cefd7050feb675b637f5b800c.setIcon(icon_426db988b5414218636f1d8e100eb58f);
+        
+    
+            marker_d4a8b40cefd7050feb675b637f5b800c.bindTooltip(
+                `<div>
+                     Vespella de Gaià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e166130fa35d0e285bb709c9120b428 = L.marker(
+                [41.2210731, 1.4399455],
+                {}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            var icon_2276d181bdda9510dff613c0a4668b70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e166130fa35d0e285bb709c9120b428.setIcon(icon_2276d181bdda9510dff613c0a4668b70);
+        
+    
+            marker_7e166130fa35d0e285bb709c9120b428.bindTooltip(
+                `<div>
+                     Bonastre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5a52ba019560ccf9be12c911af051eb6 = L.polyline(
+                [[41.1415583, 1.2202436], [41.3414537, 1.4918235]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            poly_line_5a52ba019560ccf9be12c911af051eb6.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Montmell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ab32d243a1455760fe0f96fd94e08431 = L.polyline(
+                [[41.3414537, 1.4918235], [41.27029599999999, 1.4162937]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            poly_line_ab32d243a1455760fe0f96fd94e08431.bindTooltip(
+                `<div>
+                     De Montmell a Masllorenç
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_778c31fa91770a5e4ecb9cf566556a11 = L.polyline(
+                [[41.27029599999999, 1.4162937], [41.2287448, 1.3746587]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            poly_line_778c31fa91770a5e4ecb9cf566556a11.bindTooltip(
+                `<div>
+                     De Masllorenç a Salomó
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bda8f6b2bbd8a4cc4140d6efff76d1fe = L.polyline(
+                [[41.2287448, 1.3746587], [41.203398, 1.3599568]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            poly_line_bda8f6b2bbd8a4cc4140d6efff76d1fe.bindTooltip(
+                `<div>
+                     De Salomó a Vespella de Gaià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_79e055dad8ef19d799de9bf30edc0a4a = L.polyline(
+                [[41.203398, 1.3599568], [41.2210731, 1.4399455]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            poly_line_79e055dad8ef19d799de9bf30edc0a4a.bindTooltip(
+                `<div>
+                     De Vespella de Gaià a Bonastre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_743b8117ff60889fa70154426b043ae6 = L.polyline(
+                [[41.2210731, 1.4399455], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_369bb0b42cb471a6e5994bebb21ef6ff);
+        
+    
+            poly_line_743b8117ff60889fa70154426b043ae6.bindTooltip(
+                `<div>
+                     De Bonastre a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

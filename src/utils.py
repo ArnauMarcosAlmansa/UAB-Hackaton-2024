@@ -1,10 +1,15 @@
 import calendar
+import time
+import webbrowser
 from datetime import date, datetime
 
 import numpy as np
 import pandas as pd
 
 from src.data.data import Town
+import folium
+from IPython.display import display
+from itertools import pairwise
 
 
 def skip(n: int, iter):
@@ -65,3 +70,35 @@ def get_workdays_of_month(year: int, month: int) -> list[date]:
 
 def split_into_packs(business_days, pack_size=5):
     return [business_days[i:i + pack_size] for i in range(0, len(business_days), pack_size)]
+
+def display_path_splits(batch: int, block: int, splits, towns: list[Town], origin: Town, coords: np.ndarray):
+    avg_location = coords.mean(0)
+
+    for i, town in enumerate(towns):
+        town.lat = coords[i, 0]
+        town.lon = coords[i, 1]
+
+    for i, split in enumerate(splits):
+        map_route = folium.Map(location=avg_location, zoom_start=13)
+        path = [origin]
+        for p in split[1]:
+            path.append(towns[p])
+        path.append(origin)
+
+        for j, town in enumerate(path[:-1]):
+            marker = folium.Marker(location=(town.lat, town.lon),
+                                   tooltip=town.name, icon=folium.Icon(color="blue" if j > 0 else "red"))
+            marker.add_to(map_route)
+
+        for town1, town2 in pairwise(path):
+            line = folium.PolyLine(
+                locations=[(town1.lat, town1.lon),
+                           (town2.lat, town2.lon)],
+                tooltip=f"De {town1.name} a {town2.name}",
+            )
+            line.add_to(map_route)
+
+        map_route.save(f"map_{batch}_{block}_{i}.html")
+        webbrowser.open(f"map_{batch}_{block}_{i}.html")
+
+        time.sleep(1)

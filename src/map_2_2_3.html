@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d04f3bd6248edcabba6e92f4b79b36ad {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d04f3bd6248edcabba6e92f4b79b36ad" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d04f3bd6248edcabba6e92f4b79b36ad = L.map(
+                "map_d04f3bd6248edcabba6e92f4b79b36ad",
+                {
+                    center: [41.34593640869565, 1.6216563565217392],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_47b938974a4c69cb79a2c45f8dcd10c5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_47b938974a4c69cb79a2c45f8dcd10c5.addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var marker_be35d8c8640d4dabb09803d2589aef3a = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var icon_15e231dff90f5190af6f3fbff4c7b257 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_be35d8c8640d4dabb09803d2589aef3a.setIcon(icon_15e231dff90f5190af6f3fbff4c7b257);
+        
+    
+            marker_be35d8c8640d4dabb09803d2589aef3a.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_64e29b49da57edbebbd43fc397925849 = L.marker(
+                [41.25331389999999, 1.5521598],
+                {}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var icon_e58cfd3e1a5c0df85c993d3f64561947 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64e29b49da57edbebbd43fc397925849.setIcon(icon_e58cfd3e1a5c0df85c993d3f64561947);
+        
+    
+            marker_64e29b49da57edbebbd43fc397925849.bindTooltip(
+                `<div>
+                     Santa Oliva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfc949073a125e3e63ec918429bfc1c0 = L.marker(
+                [41.3102463, 1.8114185],
+                {}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var icon_02dbb49a150c84744ca0950096df774f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfc949073a125e3e63ec918429bfc1c0.setIcon(icon_02dbb49a150c84744ca0950096df774f);
+        
+    
+            marker_bfc949073a125e3e63ec918429bfc1c0.bindTooltip(
+                `<div>
+                     Olivella
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6e995b3b8f3e5cdaa22f71d82314262 = L.marker(
+                [41.405007, 1.6967245],
+                {}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var icon_5c97b47d3bed56948e3f5e327afc3a91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d6e995b3b8f3e5cdaa22f71d82314262.setIcon(icon_5c97b47d3bed56948e3f5e327afc3a91);
+        
+    
+            marker_d6e995b3b8f3e5cdaa22f71d82314262.bindTooltip(
+                `<div>
+                     Puigdàlber
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55c90f1ddc8290bb29e7d7e289df5149 = L.marker(
+                [41.4464841, 1.7300146],
+                {}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var icon_83ada2d8d4a280b53aaa37dfda81c0b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_55c90f1ddc8290bb29e7d7e289df5149.setIcon(icon_83ada2d8d4a280b53aaa37dfda81c0b3);
+        
+    
+            marker_55c90f1ddc8290bb29e7d7e289df5149.bindTooltip(
+                `<div>
+                     Torrelavit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_78d73c833c83ea17611f802dc16407f1 = L.marker(
+                [41.465996, 1.8230624],
+                {}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            var icon_188bf251fbad9395af20b0d8512a22ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78d73c833c83ea17611f802dc16407f1.setIcon(icon_188bf251fbad9395af20b0d8512a22ad);
+        
+    
+            marker_78d73c833c83ea17611f802dc16407f1.bindTooltip(
+                `<div>
+                     Sant Llorenç d'Hortons
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f056b16a92613c898e5c6c7dc3d2efe7 = L.polyline(
+                [[41.1415583, 1.2202436], [41.25331389999999, 1.5521598]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            poly_line_f056b16a92613c898e5c6c7dc3d2efe7.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Santa Oliva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_46c56c694807fae79d6d1d964ee84c43 = L.polyline(
+                [[41.25331389999999, 1.5521598], [41.3102463, 1.8114185]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            poly_line_46c56c694807fae79d6d1d964ee84c43.bindTooltip(
+                `<div>
+                     De Santa Oliva a Olivella
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ea490f6aa106d18fa51716c3098e74d8 = L.polyline(
+                [[41.3102463, 1.8114185], [41.405007, 1.6967245]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            poly_line_ea490f6aa106d18fa51716c3098e74d8.bindTooltip(
+                `<div>
+                     De Olivella a Puigdàlber
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_903bb0a714af3a629995ec51144e9e02 = L.polyline(
+                [[41.405007, 1.6967245], [41.4464841, 1.7300146]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            poly_line_903bb0a714af3a629995ec51144e9e02.bindTooltip(
+                `<div>
+                     De Puigdàlber a Torrelavit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e70f1fa39b04308a87127222546bd4b6 = L.polyline(
+                [[41.4464841, 1.7300146], [41.465996, 1.8230624]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            poly_line_e70f1fa39b04308a87127222546bd4b6.bindTooltip(
+                `<div>
+                     De Torrelavit a Sant Llorenç d'Hortons
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_743a17da3e7e14e66d7d48278425fd88 = L.polyline(
+                [[41.465996, 1.8230624], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d04f3bd6248edcabba6e92f4b79b36ad);
+        
+    
+            poly_line_743a17da3e7e14e66d7d48278425fd88.bindTooltip(
+                `<div>
+                     De Sant Llorenç d'Hortons a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
