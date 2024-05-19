@@ -23,22 +23,22 @@ El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src
 ## Resultats
 Gràcies a l'arxiu anteriorment esmentat, 'src/run_bandb.py', també podem visualitzar el camí resultant en un fitxer '.html':
 
-<div style="display: flex; flex-wrap: wrap;">
-    <div style="flex-basis: 300px; margin-right: 10px;">
+<div style="display: flex;">
+    <div style="width:50%; margin-right: 10px;">
         <h3>Camí del Lot-2 i bloc-1</h3>
-        <img src="img/map_2_1_0.png" alt="Camí del Lot-2 i bloc-1" width="300" height="300">
+        <img src="img/map_2_1_0.png" alt="Camí del Lot-2 i bloc-1" width="100%" height="300">
     </div>
-    <div style="flex-basis: 300px; margin-right: 10px;">
+    <div style="width:50%; margin-right: 10px;">
         <h3>Camí del Lot-2 i bloc-2</h3>
-        <img src="img/map_2_1_1.png" alt="Camí del Lot-2 i bloc-2" width="300" height="300">
+        <img src="img/map_2_1_1.png" alt="Camí del Lot-2 i bloc-2" width="100%" height="300">
     </div>
-    <div style="flex-basis: 300px; margin-right: 10px;">
+    <div style="width:50%; margin-right: 10px;">
         <h3>Camí del Lot-2 i bloc-3</h3>
-        <img src="img/map_2_1_2.png" alt="Camí del Lot-2 i bloc-3" width="300" height="300">
+        <img src="img/map_2_1_2.png" alt="Camí del Lot-2 i bloc-3" width="100%" height="300">
     </div>
-    <div style="flex-basis: 300px; margin-right: 10px;">
+    <div style="width:50%; margin-right: 10px;">
         <h3>Camí del Lot-2 i bloc-4</h3>
-        <img src="img/map_2_1_3.png" alt="Camí del Lot-2 i bloc-4" width="300" height="300">
+        <img src="img/map_2_1_3.png" alt="Camí del Lot-2 i bloc-4" width="100%" height="300">
     </div>
 </div>
 
