@@ -21,9 +21,27 @@ Per abordar aquest repte, hem utilitzat l'algoritme de Branch&Bound per obtenir 
 El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src/run_bandb.py', el qual importa les funcions dels arxius 'src/algorithms/bandb.py' i 'src/algorithms/workday_splitting.py'. Gràcies a això, podem obtenir un camí òptim i dividir-lo en camins més petits per tal que es puguin implementar en els dies i les hores laborables.
 
 ## Resultats
-Gracies a l'archiu anteriorment mencionat, el 'src/run_bandb.py', també podem visualitzar el camí resultant en un '.html':
+Gràcies a l'arxiu anteriorment esmentat, 'src/run_bandb.py', també podem visualitzar el camí resultant en un fitxer '.html':
 
-<img src="img/map_2_1_0.png" alt="Camí del Lot-2 i bloc-1" width="200">
-<img src="img/map_2_1_1.png" alt="Camí del Lot-2 i bloc-2" width="200">
-<img src="img/map_2_1_2.png" alt="Camí del Lot-2 i bloc-3" width="200">
-<img src="img/map_2_1_3.png" alt="Camí del Lot-2 i bloc-4" width="200">
+<div style="display: flex; flex-wrap: wrap;">
+    <div style="flex-basis: 300px; margin-right: 10px;">
+        <h3>Camí del Lot-2 i bloc-1</h3>
+        <img src="img/map_2_1_0.png" alt="Camí del Lot-2 i bloc-1" width="300" height="300">
+    </div>
+    <div style="flex-basis: 300px; margin-right: 10px;">
+        <h3>Camí del Lot-2 i bloc-2</h3>
+        <img src="img/map_2_1_1.png" alt="Camí del Lot-2 i bloc-2" width="300" height="300">
+    </div>
+    <div style="flex-basis: 300px; margin-right: 10px;">
+        <h3>Camí del Lot-2 i bloc-3</h3>
+        <img src="img/map_2_1_2.png" alt="Camí del Lot-2 i bloc-3" width="300" height="300">
+    </div>
+    <div style="flex-basis: 300px; margin-right: 10px;">
+        <h3>Camí del Lot-2 i bloc-4</h3>
+        <img src="img/map_2_1_3.png" alt="Camí del Lot-2 i bloc-4" width="300" height="300">
+    </div>
+</div>
+
+Per visualitzar aquests resultats, has d'executar la següent línia de comandament en la terminal: <br>
+`& C:/Users/chocl/AppData/Local/Microsoft/WindowsApps/python3.11.exe -m src.run_bandb` <br>
+Això començarà a mostrar les imatges en format '.html' al teu navegador.
