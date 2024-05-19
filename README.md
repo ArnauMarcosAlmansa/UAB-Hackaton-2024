@@ -23,7 +23,7 @@ El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src
 ## Resultats
 Gracies a l'archiu anteriorment mencionat, el 'src/run_bandb.py', també podem visualitzar el camí resultant en un '.html':
 
-![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/blob/master/img/map_2_1_0.png "Camí del Lot-2 i bloc-1")
-![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/blob/master/img/map_2_1_1.png "Camí del Lot-2 i bloc-2")
-![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/blob/master/img/map_2_1_2.png "Camí del Lot-2 i bloc-3")
-![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/blob/master/img/map_2_1_3.png "Camí del Lot-2 i bloc-4")
+<img src="img/map_2_1_0.png" alt="Camí del Lot-2 i bloc-1" width="200">
+<img src="img/map_2_1_1.png" alt="Camí del Lot-2 i bloc-2" width="200">
+<img src="img/map_2_1_2.png" alt="Camí del Lot-2 i bloc-3" width="200">
+<img src="img/map_2_1_3.png" alt="Camí del Lot-2 i bloc-4" width="200">
