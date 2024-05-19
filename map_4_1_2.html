@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bd30d5bd72ba8609aaaedb1840a6f365 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bd30d5bd72ba8609aaaedb1840a6f365" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bd30d5bd72ba8609aaaedb1840a6f365 = L.map(
+                "map_bd30d5bd72ba8609aaaedb1840a6f365",
+                {
+                    center: [42.25820824074073, 3.000709196296296],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_be5804dc4bdfccbc7bfcc57e08f92fd8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_be5804dc4bdfccbc7bfcc57e08f92fd8.addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var marker_6b9fcbf82de7b862461be9c10bd1352b = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_2b5b5617e498d442e1d869e9220a4513 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6b9fcbf82de7b862461be9c10bd1352b.setIcon(icon_2b5b5617e498d442e1d869e9220a4513);
+        
+    
+            marker_6b9fcbf82de7b862461be9c10bd1352b.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a256a964b5ef4b9e8e0cdf526203190 = L.marker(
+                [42.306365, 2.9675572],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_10fd5c5de80e452523cbe507c97eb72b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9a256a964b5ef4b9e8e0cdf526203190.setIcon(icon_10fd5c5de80e452523cbe507c97eb72b);
+        
+    
+            marker_9a256a964b5ef4b9e8e0cdf526203190.bindTooltip(
+                `<div>
+                     Cabanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c800ded4d416f518dad4e01f7c39f9d4 = L.marker(
+                [42.3074478, 3.1127413],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_91717ab7cd568563d9dc4ab9551d8bbf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c800ded4d416f518dad4e01f7c39f9d4.setIcon(icon_91717ab7cd568563d9dc4ab9551d8bbf);
+        
+    
+            marker_c800ded4d416f518dad4e01f7c39f9d4.bindTooltip(
+                `<div>
+                     Pau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1b099c17370383b044e2a12c76f9edf = L.marker(
+                [42.3085262, 3.0726468],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_da7a56ddb2dda2c5d49653571e1bd8ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1b099c17370383b044e2a12c76f9edf.setIcon(icon_da7a56ddb2dda2c5d49653571e1bd8ae);
+        
+    
+            marker_b1b099c17370383b044e2a12c76f9edf.bindTooltip(
+                `<div>
+                     Pedret i Marzà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_af6ba1f8b51774a3ed6e5103d002106f = L.marker(
+                [42.3753663, 3.0673242],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_761fd9f1bb8fccb1eab39f1af6621853 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_af6ba1f8b51774a3ed6e5103d002106f.setIcon(icon_761fd9f1bb8fccb1eab39f1af6621853);
+        
+    
+            marker_af6ba1f8b51774a3ed6e5103d002106f.bindTooltip(
+                `<div>
+                     Vilamaniscle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d31b52e7af64a9c7ae408617aa7cb1f6 = L.marker(
+                [42.4026078, 3.0476046],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_75da1da1920638e213d248a49405ea69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d31b52e7af64a9c7ae408617aa7cb1f6.setIcon(icon_75da1da1920638e213d248a49405ea69);
+        
+    
+            marker_d31b52e7af64a9c7ae408617aa7cb1f6.bindTooltip(
+                `<div>
+                     Rabós
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c4ad399d866367bf50c2f4da09ea0bba = L.marker(
+                [42.3599287, 3.000373],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_5ff6eb7ed750a501465181599f549954 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c4ad399d866367bf50c2f4da09ea0bba.setIcon(icon_5ff6eb7ed750a501465181599f549954);
+        
+    
+            marker_c4ad399d866367bf50c2f4da09ea0bba.bindTooltip(
+                `<div>
+                     Mollet de Peralada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39a953b0ca8b76254af3ad6563663ad3 = L.marker(
+                [42.3909458, 3.0006856],
+                {}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            var icon_d6e6fa9233e9cabbc2d4eb822282fa1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39a953b0ca8b76254af3ad6563663ad3.setIcon(icon_d6e6fa9233e9cabbc2d4eb822282fa1e);
+        
+    
+            marker_39a953b0ca8b76254af3ad6563663ad3.bindTooltip(
+                `<div>
+                     Espolla
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a5c6db8d5ed55a40bfb972c971c4fae5 = L.polyline(
+                [[41.9347295, 2.8000358], [42.306365, 2.9675572]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_a5c6db8d5ed55a40bfb972c971c4fae5.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Cabanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4cda97efa942743bb5dfc692adfff8b6 = L.polyline(
+                [[42.306365, 2.9675572], [42.3074478, 3.1127413]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_4cda97efa942743bb5dfc692adfff8b6.bindTooltip(
+                `<div>
+                     De Cabanes a Pau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8b9638bd1115f63f14dae4cb8f2d0123 = L.polyline(
+                [[42.3074478, 3.1127413], [42.3085262, 3.0726468]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_8b9638bd1115f63f14dae4cb8f2d0123.bindTooltip(
+                `<div>
+                     De Pau a Pedret i Marzà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e3b4a401be15b39bbf72ab4107a77327 = L.polyline(
+                [[42.3085262, 3.0726468], [42.3753663, 3.0673242]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_e3b4a401be15b39bbf72ab4107a77327.bindTooltip(
+                `<div>
+                     De Pedret i Marzà a Vilamaniscle
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aa71809106a4167050b0d29bc649d551 = L.polyline(
+                [[42.3753663, 3.0673242], [42.4026078, 3.0476046]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_aa71809106a4167050b0d29bc649d551.bindTooltip(
+                `<div>
+                     De Vilamaniscle a Rabós
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_284bd62df461025df29fec7970ebbaa9 = L.polyline(
+                [[42.4026078, 3.0476046], [42.3599287, 3.000373]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_284bd62df461025df29fec7970ebbaa9.bindTooltip(
+                `<div>
+                     De Rabós a Mollet de Peralada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3826392b02e04cc4c29166b26ccac3bb = L.polyline(
+                [[42.3599287, 3.000373], [42.3909458, 3.0006856]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_3826392b02e04cc4c29166b26ccac3bb.bindTooltip(
+                `<div>
+                     De Mollet de Peralada a Espolla
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3c6582e415df185b3286694bc88697c1 = L.polyline(
+                [[42.3909458, 3.0006856], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bd30d5bd72ba8609aaaedb1840a6f365);
+        
+    
+            poly_line_3c6582e415df185b3286694bc88697c1.bindTooltip(
+                `<div>
+                     De Espolla a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

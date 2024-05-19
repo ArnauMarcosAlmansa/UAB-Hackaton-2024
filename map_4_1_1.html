@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_042e851d08a6e803d8bfa23fe5c869ed {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_042e851d08a6e803d8bfa23fe5c869ed" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_042e851d08a6e803d8bfa23fe5c869ed = L.map(
+                "map_042e851d08a6e803d8bfa23fe5c869ed",
+                {
+                    center: [42.25820824074073, 3.000709196296296],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6150dce31727b7430ce6548787be06a3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6150dce31727b7430ce6548787be06a3.addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var marker_666621b2465f9c9db9870acf65e22707 = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_c505fb91857cc8b31e7ed093a1c1929b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_666621b2465f9c9db9870acf65e22707.setIcon(icon_c505fb91857cc8b31e7ed093a1c1929b);
+        
+    
+            marker_666621b2465f9c9db9870acf65e22707.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1bf1fd151fc35147bc0d06d0f1017fca = L.marker(
+                [42.1927719, 2.9544372],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_d0c2a4728af9bd27bd2631ed9aabd0eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1bf1fd151fc35147bc0d06d0f1017fca.setIcon(icon_d0c2a4728af9bd27bd2631ed9aabd0eb);
+        
+    
+            marker_1bf1fd151fc35147bc0d06d0f1017fca.bindTooltip(
+                `<div>
+                     Garrigàs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6d5bfb231b85b62a511fb8bd44901034 = L.marker(
+                [42.25208809999999, 2.9956836],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_5bf24428697ec9d55885fac0027a49d6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6d5bfb231b85b62a511fb8bd44901034.setIcon(icon_5bf24428697ec9d55885fac0027a49d6);
+        
+    
+            marker_6d5bfb231b85b62a511fb8bd44901034.bindTooltip(
+                `<div>
+                     Far d'Empordà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b57741ea2651e6fa6c44cc7692dab66c = L.marker(
+                [42.2441155, 3.0413461],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_11c62a6aabfcf833609c07b3023cd2df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b57741ea2651e6fa6c44cc7692dab66c.setIcon(icon_11c62a6aabfcf833609c07b3023cd2df);
+        
+    
+            marker_b57741ea2651e6fa6c44cc7692dab66c.bindTooltip(
+                `<div>
+                     Fortià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bec911047da64a39c3c6f1ea9a51fc91 = L.marker(
+                [42.2274676, 3.0419719],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_916f1472e09d17471cb618469819af99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bec911047da64a39c3c6f1ea9a51fc91.setIcon(icon_916f1472e09d17471cb618469819af99);
+        
+    
+            marker_bec911047da64a39c3c6f1ea9a51fc91.bindTooltip(
+                `<div>
+                     Riumors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b9824f8ad90bc67f0511d921d5b2dc4 = L.marker(
+                [42.2335098, 2.9519385],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_24d6a16c43dc58654b1c4a121c40c6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3b9824f8ad90bc67f0511d921d5b2dc4.setIcon(icon_24d6a16c43dc58654b1c4a121c40c6de);
+        
+    
+            marker_3b9824f8ad90bc67f0511d921d5b2dc4.bindTooltip(
+                `<div>
+                     Santa Llogaia d'Àlguema
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_078200397726430bb6e31bcf0c561547 = L.marker(
+                [42.2654013, 3.0182054],
+                {}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            var icon_dd9bc458e58adfa1c2b024afe474497a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_078200397726430bb6e31bcf0c561547.setIcon(icon_dd9bc458e58adfa1c2b024afe474497a);
+        
+    
+            marker_078200397726430bb6e31bcf0c561547.bindTooltip(
+                `<div>
+                     Vila-sacra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5995da5e1bedacde34db6e3663fba93f = L.polyline(
+                [[41.9347295, 2.8000358], [42.1927719, 2.9544372]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_5995da5e1bedacde34db6e3663fba93f.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Garrigàs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2326e9eb740532698e4490558026dbb7 = L.polyline(
+                [[42.1927719, 2.9544372], [42.25208809999999, 2.9956836]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_2326e9eb740532698e4490558026dbb7.bindTooltip(
+                `<div>
+                     De Garrigàs a Far d'Empordà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6acc13b57459fd417170ac7a3da4579a = L.polyline(
+                [[42.25208809999999, 2.9956836], [42.2441155, 3.0413461]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_6acc13b57459fd417170ac7a3da4579a.bindTooltip(
+                `<div>
+                     De Far d'Empordà a Fortià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1254498e82bbac4331f4c09809968268 = L.polyline(
+                [[42.2441155, 3.0413461], [42.2274676, 3.0419719]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_1254498e82bbac4331f4c09809968268.bindTooltip(
+                `<div>
+                     De Fortià a Riumors
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_09be57a91e424650fd01353d686aa56a = L.polyline(
+                [[42.2274676, 3.0419719], [42.2335098, 2.9519385]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_09be57a91e424650fd01353d686aa56a.bindTooltip(
+                `<div>
+                     De Riumors a Santa Llogaia d'Àlguema
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9b67d53a7187db5513b4b24f302046b3 = L.polyline(
+                [[42.2335098, 2.9519385], [42.2654013, 3.0182054]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_9b67d53a7187db5513b4b24f302046b3.bindTooltip(
+                `<div>
+                     De Santa Llogaia d'Àlguema a Vila-sacra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_31e0eeb37cfbc7250f8a201be33bf514 = L.polyline(
+                [[42.2654013, 3.0182054], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_042e851d08a6e803d8bfa23fe5c869ed);
+        
+    
+            poly_line_31e0eeb37cfbc7250f8a201be33bf514.bindTooltip(
+                `<div>
+                     De Vila-sacra a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

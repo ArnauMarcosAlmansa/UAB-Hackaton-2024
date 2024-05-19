@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9baf6b56ad675981cece07fa68619542 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9baf6b56ad675981cece07fa68619542" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9baf6b56ad675981cece07fa68619542 = L.map(
+                "map_9baf6b56ad675981cece07fa68619542",
+                {
+                    center: [41.659282741666665, 2.1710888125000003],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c5046cc434d7968c955835250a156df6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c5046cc434d7968c955835250a156df6.addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            var marker_c19632b536557037037c82a22c35bd4e = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            var icon_85d5f05c795d1328754055569576e08f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c19632b536557037037c82a22c35bd4e.setIcon(icon_85d5f05c795d1328754055569576e08f);
+        
+    
+            marker_c19632b536557037037c82a22c35bd4e.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b840dd7b2f211f8d54777de8b9ff9c0a = L.marker(
+                [41.4500186, 1.8995445],
+                {}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            var icon_2f0325a001c9b688c910ca43447e485f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b840dd7b2f211f8d54777de8b9ff9c0a.setIcon(icon_2f0325a001c9b688c910ca43447e485f);
+        
+    
+            marker_b840dd7b2f211f8d54777de8b9ff9c0a.bindTooltip(
+                `<div>
+                     Castellví de Rosanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_adbea12a7ffaad665fe4f4b1867767e4 = L.marker(
+                [41.56444949999999, 1.8147696],
+                {}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            var icon_1557393a1531f6200bf89320193e32cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_adbea12a7ffaad665fe4f4b1867767e4.setIcon(icon_1557393a1531f6200bf89320193e32cd);
+        
+    
+            marker_adbea12a7ffaad665fe4f4b1867767e4.bindTooltip(
+                `<div>
+                     Collbató
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a2bd235311d155d7cd7301b85c8e3e2c = L.marker(
+                [41.6304028, 1.9035146],
+                {}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            var icon_aea4173a72c071c33e7b801645da4bf4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a2bd235311d155d7cd7301b85c8e3e2c.setIcon(icon_aea4173a72c071c33e7b801645da4bf4);
+        
+    
+            marker_a2bd235311d155d7cd7301b85c8e3e2c.bindTooltip(
+                `<div>
+                     Rellinars
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_554be9b121a827251383f1a9762f5303 = L.polyline(
+                [[41.3108114, 2.0730202], [41.4500186, 1.8995445]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            poly_line_554be9b121a827251383f1a9762f5303.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Castellví de Rosanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d84ea5f74b0036a2a451a7e27a192e46 = L.polyline(
+                [[41.4500186, 1.8995445], [41.56444949999999, 1.8147696]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            poly_line_d84ea5f74b0036a2a451a7e27a192e46.bindTooltip(
+                `<div>
+                     De Castellví de Rosanes a Collbató
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2a547f054a3183d1bd14ad2830742fab = L.polyline(
+                [[41.56444949999999, 1.8147696], [41.6304028, 1.9035146]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            poly_line_2a547f054a3183d1bd14ad2830742fab.bindTooltip(
+                `<div>
+                     De Collbató a Rellinars
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6f89a9cc6cd486385439678983f2df91 = L.polyline(
+                [[41.6304028, 1.9035146], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9baf6b56ad675981cece07fa68619542);
+        
+    
+            poly_line_6f89a9cc6cd486385439678983f2df91.bindTooltip(
+                `<div>
+                     De Rellinars a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

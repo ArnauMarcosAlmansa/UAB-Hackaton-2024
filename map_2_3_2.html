@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_926e3a7c18d27b2f7b7dbc4c182e9940 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_926e3a7c18d27b2f7b7dbc4c182e9940" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_926e3a7c18d27b2f7b7dbc4c182e9940 = L.map(
+                "map_926e3a7c18d27b2f7b7dbc4c182e9940",
+                {
+                    center: [41.324644048, 1.251774844],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_661ad07c6fe3105fa1edb50269bf3ee4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_661ad07c6fe3105fa1edb50269bf3ee4.addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var marker_f19fab5464971cac79f503e696d60a3e = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_7f7abb4d6d23c87accd61e1019774e58 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f19fab5464971cac79f503e696d60a3e.setIcon(icon_7f7abb4d6d23c87accd61e1019774e58);
+        
+    
+            marker_f19fab5464971cac79f503e696d60a3e.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_919c51acc741851e136dd2335963bbae = L.marker(
+                [41.3474337, 0.9572794],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_fca076da2c0b759d54048e8c6a8a52e5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_919c51acc741851e136dd2335963bbae.setIcon(icon_fca076da2c0b759d54048e8c6a8a52e5);
+        
+    
+            marker_919c51acc741851e136dd2335963bbae.bindTooltip(
+                `<div>
+                     Vilanova de Prades
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_48a424362237cc20bbb7e9eaf4ae7fd8 = L.marker(
+                [41.2870198, 1.0981137],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_55ac88ac9f453e3dad5505bf3a26fac7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_48a424362237cc20bbb7e9eaf4ae7fd8.setIcon(icon_55ac88ac9f453e3dad5505bf3a26fac7);
+        
+    
+            marker_48a424362237cc20bbb7e9eaf4ae7fd8.bindTooltip(
+                `<div>
+                     Mont-ral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b34fd03753c5517dc0b0eefe2ecae81e = L.marker(
+                [41.3356934, 1.1767007],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_8fdf5ba34875d5218a9458d84ff130f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b34fd03753c5517dc0b0eefe2ecae81e.setIcon(icon_8fdf5ba34875d5218a9458d84ff130f8);
+        
+    
+            marker_b34fd03753c5517dc0b0eefe2ecae81e.bindTooltip(
+                `<div>
+                     Vilaverd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57942317de428ab43fa5cd6377135c31 = L.marker(
+                [41.2235994, 1.2175396],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_a23cfe0345b134ae72af85093562c546 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57942317de428ab43fa5cd6377135c31.setIcon(icon_a23cfe0345b134ae72af85093562c546);
+        
+    
+            marker_57942317de428ab43fa5cd6377135c31.bindTooltip(
+                `<div>
+                     Rourell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8cfd133941006953659739fcbdff7b6b = L.marker(
+                [41.2346147, 1.2211737],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_0cdb80a54a25950d78baf50a37bfbf13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8cfd133941006953659739fcbdff7b6b.setIcon(icon_0cdb80a54a25950d78baf50a37bfbf13);
+        
+    
+            marker_8cfd133941006953659739fcbdff7b6b.bindTooltip(
+                `<div>
+                     Masó
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c21e58bc6a443b022b6bfefa881debfc = L.marker(
+                [41.2446134, 1.2487963],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_b8c8919e97b4b56e5972e82e2451c763 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c21e58bc6a443b022b6bfefa881debfc.setIcon(icon_b8c8919e97b4b56e5972e82e2451c763);
+        
+    
+            marker_c21e58bc6a443b022b6bfefa881debfc.bindTooltip(
+                `<div>
+                     Vallmoll
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34bc2c3146a89b5fdabd7ef891af24c9 = L.marker(
+                [41.20745489999999, 1.2475459],
+                {}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            var icon_8fca580e4cf0de991a322b13dfca7bfe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34bc2c3146a89b5fdabd7ef891af24c9.setIcon(icon_8fca580e4cf0de991a322b13dfca7bfe);
+        
+    
+            marker_34bc2c3146a89b5fdabd7ef891af24c9.bindTooltip(
+                `<div>
+                     Garidells
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c07a00daf5e4e4fd733e92a0de9c8b75 = L.polyline(
+                [[41.1415583, 1.2202436], [41.3474337, 0.9572794]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_c07a00daf5e4e4fd733e92a0de9c8b75.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Vilanova de Prades
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6d13995db054921ef484e97f1a610643 = L.polyline(
+                [[41.3474337, 0.9572794], [41.2870198, 1.0981137]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_6d13995db054921ef484e97f1a610643.bindTooltip(
+                `<div>
+                     De Vilanova de Prades a Mont-ral
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3771af69f0d75a06d63065976669457f = L.polyline(
+                [[41.2870198, 1.0981137], [41.3356934, 1.1767007]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_3771af69f0d75a06d63065976669457f.bindTooltip(
+                `<div>
+                     De Mont-ral a Vilaverd
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_68675ea23c35ff59ed261aa2c291a7b8 = L.polyline(
+                [[41.3356934, 1.1767007], [41.2235994, 1.2175396]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_68675ea23c35ff59ed261aa2c291a7b8.bindTooltip(
+                `<div>
+                     De Vilaverd a Rourell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_70ba36127058d64cc0700b9af8ca4dc9 = L.polyline(
+                [[41.2235994, 1.2175396], [41.2346147, 1.2211737]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_70ba36127058d64cc0700b9af8ca4dc9.bindTooltip(
+                `<div>
+                     De Rourell a Masó
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8e0667c6a5d04e9603cbd52504a43926 = L.polyline(
+                [[41.2346147, 1.2211737], [41.2446134, 1.2487963]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_8e0667c6a5d04e9603cbd52504a43926.bindTooltip(
+                `<div>
+                     De Masó a Vallmoll
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6896c51930a9a75b1fe193382fa811fb = L.polyline(
+                [[41.2446134, 1.2487963], [41.20745489999999, 1.2475459]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_6896c51930a9a75b1fe193382fa811fb.bindTooltip(
+                `<div>
+                     De Vallmoll a Garidells
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_93a84502f12cbe87230518f9530f1ed3 = L.polyline(
+                [[41.20745489999999, 1.2475459], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_926e3a7c18d27b2f7b7dbc4c182e9940);
+        
+    
+            poly_line_93a84502f12cbe87230518f9530f1ed3.bindTooltip(
+                `<div>
+                     De Garidells a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

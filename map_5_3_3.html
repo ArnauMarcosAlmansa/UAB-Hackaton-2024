@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9acd5bc995e203ee0a037dedeb01facf {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9acd5bc995e203ee0a037dedeb01facf" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9acd5bc995e203ee0a037dedeb01facf = L.map(
+                "map_9acd5bc995e203ee0a037dedeb01facf",
+                {
+                    center: [41.97896863846153, 2.2703976999999993],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6b1e484650583558d4612fcf5d7ab844 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6b1e484650583558d4612fcf5d7ab844.addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var marker_630c9a32de7cd149f025f759be34ac93 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_9b727cc34c85e2b13788621fa2130130 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_630c9a32de7cd149f025f759be34ac93.setIcon(icon_9b727cc34c85e2b13788621fa2130130);
+        
+    
+            marker_630c9a32de7cd149f025f759be34ac93.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a436c3e0e48800eaaf8b905a605e4a3 = L.marker(
+                [42.0172312, 2.244446],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_e90ab074163c46eacaf735f510cb8b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a436c3e0e48800eaaf8b905a605e4a3.setIcon(icon_e90ab074163c46eacaf735f510cb8b02);
+        
+    
+            marker_5a436c3e0e48800eaaf8b905a605e4a3.bindTooltip(
+                `<div>
+                     Masies de Voltregà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8f5c2acb21a69d11dd39015a14b77cde = L.marker(
+                [42.1274019, 2.2584235],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_8aec89a62977b3da6d5f58166fa34199 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8f5c2acb21a69d11dd39015a14b77cde.setIcon(icon_8aec89a62977b3da6d5f58166fa34199);
+        
+    
+            marker_8f5c2acb21a69d11dd39015a14b77cde.bindTooltip(
+                `<div>
+                     Santa Maria de Besora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f9b2f1904cdac3a35d73a0e9d326e7bc = L.marker(
+                [42.1239055, 2.3101467],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_b52b25985d96873d7f1381d1fa273434 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f9b2f1904cdac3a35d73a0e9d326e7bc.setIcon(icon_b52b25985d96873d7f1381d1fa273434);
+        
+    
+            marker_f9b2f1904cdac3a35d73a0e9d326e7bc.bindTooltip(
+                `<div>
+                     Vidrà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c995e550a7c78fb58f82f2cc02b9dd3f = L.marker(
+                [42.1095379, 2.2082961],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_2a9faa1f2699887af9bd4d22659c6974 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c995e550a7c78fb58f82f2cc02b9dd3f.setIcon(icon_2a9faa1f2699887af9bd4d22659c6974);
+        
+    
+            marker_c995e550a7c78fb58f82f2cc02b9dd3f.bindTooltip(
+                `<div>
+                     Montesquiu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4876ef4b63f4f9695c27a1072d157382 = L.marker(
+                [42.1119857, 2.1606806],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_55368d22318436ab4611b6ee2cbc1c56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4876ef4b63f4f9695c27a1072d157382.setIcon(icon_55368d22318436ab4611b6ee2cbc1c56);
+        
+    
+            marker_4876ef4b63f4f9695c27a1072d157382.bindTooltip(
+                `<div>
+                     Sora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e1a9a2f11fc348ed1d12bdcd275e415 = L.marker(
+                [42.0855753, 2.1273796],
+                {}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            var icon_7340e12d73e7f0d319e31695caf5f3a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4e1a9a2f11fc348ed1d12bdcd275e415.setIcon(icon_7340e12d73e7f0d319e31695caf5f3a7);
+        
+    
+            marker_4e1a9a2f11fc348ed1d12bdcd275e415.bindTooltip(
+                `<div>
+                     Sant Agustí de Lluçanès
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f5a55694260e19f5654e38daf2c4b5de = L.polyline(
+                [[41.3108114, 2.0730202], [42.0172312, 2.244446]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_f5a55694260e19f5654e38daf2c4b5de.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Masies de Voltregà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7dbd9fecd32075550bec81f9e25a51b8 = L.polyline(
+                [[42.0172312, 2.244446], [42.1274019, 2.2584235]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_7dbd9fecd32075550bec81f9e25a51b8.bindTooltip(
+                `<div>
+                     De Masies de Voltregà a Santa Maria de Besora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_071d37539d5f336b1a1b1f7b917bbd18 = L.polyline(
+                [[42.1274019, 2.2584235], [42.1239055, 2.3101467]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_071d37539d5f336b1a1b1f7b917bbd18.bindTooltip(
+                `<div>
+                     De Santa Maria de Besora a Vidrà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1585cccbab7923ac0ba6ea9aa851e06f = L.polyline(
+                [[42.1239055, 2.3101467], [42.1095379, 2.2082961]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_1585cccbab7923ac0ba6ea9aa851e06f.bindTooltip(
+                `<div>
+                     De Vidrà a Montesquiu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_80432b9aa6e2f7d95757da652d4cd21d = L.polyline(
+                [[42.1095379, 2.2082961], [42.1119857, 2.1606806]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_80432b9aa6e2f7d95757da652d4cd21d.bindTooltip(
+                `<div>
+                     De Montesquiu a Sora
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_63679bfc6ec409c881fdf4dfa4c649ff = L.polyline(
+                [[42.1119857, 2.1606806], [42.0855753, 2.1273796]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_63679bfc6ec409c881fdf4dfa4c649ff.bindTooltip(
+                `<div>
+                     De Sora a Sant Agustí de Lluçanès
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_251c7a6772e68728f0b7096738d4ec38 = L.polyline(
+                [[42.0855753, 2.1273796], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9acd5bc995e203ee0a037dedeb01facf);
+        
+    
+            poly_line_251c7a6772e68728f0b7096738d4ec38.bindTooltip(
+                `<div>
+                     De Sant Agustí de Lluçanès a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e125c8e68f0608e675d23763cc36eb67 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e125c8e68f0608e675d23763cc36eb67" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e125c8e68f0608e675d23763cc36eb67 = L.map(
+                "map_e125c8e68f0608e675d23763cc36eb67",
+                {
+                    center: [42.221239613333324, 2.0115111633333336],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b4e2421eb958c2aa71fbd8127edeaa3b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b4e2421eb958c2aa71fbd8127edeaa3b.addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var marker_f468c8ce4aed95e74b0d93a85912a5b4 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var icon_a6d060ac858352f329761ba407c2237f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f468c8ce4aed95e74b0d93a85912a5b4.setIcon(icon_a6d060ac858352f329761ba407c2237f);
+        
+    
+            marker_f468c8ce4aed95e74b0d93a85912a5b4.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_31e5b5064ccb94beac519c2cb3517d6b = L.marker(
+                [42.2477628, 2.0907311],
+                {}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var icon_143ddc428be03b9325549ebde6d03d1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_31e5b5064ccb94beac519c2cb3517d6b.setIcon(icon_143ddc428be03b9325549ebde6d03d1b);
+        
+    
+            marker_31e5b5064ccb94beac519c2cb3517d6b.bindTooltip(
+                `<div>
+                     Gombrèn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ffd39c70ece15cd0ad62f60740ed25ae = L.marker(
+                [42.316176, 2.103915],
+                {}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var icon_7ea478bfe33db2427eac5c4a4739d5d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ffd39c70ece15cd0ad62f60740ed25ae.setIcon(icon_7ea478bfe33db2427eac5c4a4739d5d7);
+        
+    
+            marker_ffd39c70ece15cd0ad62f60740ed25ae.bindTooltip(
+                `<div>
+                     Planoles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d0b1f2b42052e6267aaf477c712be9c0 = L.marker(
+                [42.3215986, 2.0158409],
+                {}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var icon_160d99b215281a756bfe24204a61a7da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d0b1f2b42052e6267aaf477c712be9c0.setIcon(icon_160d99b215281a756bfe24204a61a7da);
+        
+    
+            marker_d0b1f2b42052e6267aaf477c712be9c0.bindTooltip(
+                `<div>
+                     Toses
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3cd574ee22018673061b74246d0941ee = L.marker(
+                [42.3125691, 2.2141363],
+                {}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var icon_40639290998ccea97ad2614db0a4d09d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3cd574ee22018673061b74246d0941ee.setIcon(icon_40639290998ccea97ad2614db0a4d09d);
+        
+    
+            marker_3cd574ee22018673061b74246d0941ee.bindTooltip(
+                `<div>
+                     Pardines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6aaf52d0ad60b2a2adea73554f45f6e8 = L.marker(
+                [42.3495303, 2.1628299],
+                {}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            var icon_90c418171df32a4a969a53c76263ee43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6aaf52d0ad60b2a2adea73554f45f6e8.setIcon(icon_90c418171df32a4a969a53c76263ee43);
+        
+    
+            marker_6aaf52d0ad60b2a2adea73554f45f6e8.bindTooltip(
+                `<div>
+                     Queralbs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e18bc8656bd1c68c59a6c05192507dff = L.polyline(
+                [[41.3108114, 2.0730202], [42.2477628, 2.0907311]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            poly_line_e18bc8656bd1c68c59a6c05192507dff.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Gombrèn
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6b2efd7a6e5cb394a26e08d2d2e3ed80 = L.polyline(
+                [[42.2477628, 2.0907311], [42.316176, 2.103915]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            poly_line_6b2efd7a6e5cb394a26e08d2d2e3ed80.bindTooltip(
+                `<div>
+                     De Gombrèn a Planoles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7255cb39ff272a61581e6c33b0eadebe = L.polyline(
+                [[42.316176, 2.103915], [42.3215986, 2.0158409]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            poly_line_7255cb39ff272a61581e6c33b0eadebe.bindTooltip(
+                `<div>
+                     De Planoles a Toses
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_eb6e3bbf2fde6bc9fe6d821d10caf4f5 = L.polyline(
+                [[42.3215986, 2.0158409], [42.3125691, 2.2141363]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            poly_line_eb6e3bbf2fde6bc9fe6d821d10caf4f5.bindTooltip(
+                `<div>
+                     De Toses a Pardines
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e857ec31bf866aadb0b248cff6164808 = L.polyline(
+                [[42.3125691, 2.2141363], [42.3495303, 2.1628299]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            poly_line_e857ec31bf866aadb0b248cff6164808.bindTooltip(
+                `<div>
+                     De Pardines a Queralbs
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4ae0afb6e0fc19c061104093f4919563 = L.polyline(
+                [[42.3495303, 2.1628299], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e125c8e68f0608e675d23763cc36eb67);
+        
+    
+            poly_line_4ae0afb6e0fc19c061104093f4919563.bindTooltip(
+                `<div>
+                     De Queralbs a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

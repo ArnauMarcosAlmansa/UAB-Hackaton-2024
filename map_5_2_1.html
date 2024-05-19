@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc2138f84de04da7037ea9ac70b64aae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fc2138f84de04da7037ea9ac70b64aae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fc2138f84de04da7037ea9ac70b64aae = L.map(
+                "map_fc2138f84de04da7037ea9ac70b64aae",
+                {
+                    center: [41.89875223333333, 1.979356145833333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_da9f939986ee2e0c2b54b64d717a924d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_da9f939986ee2e0c2b54b64d717a924d.addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var marker_f7bbe984d9b4cd6a001cf41adf4c8aed = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var icon_071c7e951e5630c84defbd7cd816e709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f7bbe984d9b4cd6a001cf41adf4c8aed.setIcon(icon_071c7e951e5630c84defbd7cd816e709);
+        
+    
+            marker_f7bbe984d9b4cd6a001cf41adf4c8aed.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9e372dd3ba4e84ec803560c5902cfd41 = L.marker(
+                [41.7967153, 1.7327407],
+                {}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var icon_f1551141aaa510f2b5867363c1eaefa7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9e372dd3ba4e84ec803560c5902cfd41.setIcon(icon_f1551141aaa510f2b5867363c1eaefa7);
+        
+    
+            marker_9e372dd3ba4e84ec803560c5902cfd41.bindTooltip(
+                `<div>
+                     Sant Mateu de Bages
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_502f3c5f87276750cb6fdff1f45be232 = L.marker(
+                [41.8107412, 2.0888093],
+                {}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var icon_9bf8c8fa286140158fe25c7870ebf112 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_502f3c5f87276750cb6fdff1f45be232.setIcon(icon_9bf8c8fa286140158fe25c7870ebf112);
+        
+    
+            marker_502f3c5f87276750cb6fdff1f45be232.bindTooltip(
+                `<div>
+                     Granera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f804ca71d018623256119c5619dad0d3 = L.marker(
+                [41.810067, 2.0893778],
+                {}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var icon_03dcad21dc0bcc34f6589f6357d572a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f804ca71d018623256119c5619dad0d3.setIcon(icon_03dcad21dc0bcc34f6589f6357d572a1);
+        
+    
+            marker_f804ca71d018623256119c5619dad0d3.bindTooltip(
+                `<div>
+                     Monistrol de Calders
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8756d30d7d43daf7830630e1a5fdd90 = L.marker(
+                [41.7306106, 2.1477179],
+                {}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var icon_8f3e851ff31b0d084ffea4dcfaa41473 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c8756d30d7d43daf7830630e1a5fdd90.setIcon(icon_8f3e851ff31b0d084ffea4dcfaa41473);
+        
+    
+            marker_c8756d30d7d43daf7830630e1a5fdd90.bindTooltip(
+                `<div>
+                     Sant Quirze Safaja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f61e7dd4e165ba62233f46eff6a169ff = L.marker(
+                [41.8105808, 2.0897397],
+                {}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            var icon_fcd5343d78e086ecd41775faa95c0ba1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f61e7dd4e165ba62233f46eff6a169ff.setIcon(icon_fcd5343d78e086ecd41775faa95c0ba1);
+        
+    
+            marker_f61e7dd4e165ba62233f46eff6a169ff.bindTooltip(
+                `<div>
+                     Calders
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5a01e8c65858df1bdd59a01f4e8fb663 = L.polyline(
+                [[41.3108114, 2.0730202], [41.7967153, 1.7327407]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            poly_line_5a01e8c65858df1bdd59a01f4e8fb663.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Sant Mateu de Bages
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_1bfa8b14b318f093c5d998319c20041b = L.polyline(
+                [[41.7967153, 1.7327407], [41.8107412, 2.0888093]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            poly_line_1bfa8b14b318f093c5d998319c20041b.bindTooltip(
+                `<div>
+                     De Sant Mateu de Bages a Granera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cf72a565476a889ce9fe3dea695f3608 = L.polyline(
+                [[41.8107412, 2.0888093], [41.810067, 2.0893778]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            poly_line_cf72a565476a889ce9fe3dea695f3608.bindTooltip(
+                `<div>
+                     De Granera a Monistrol de Calders
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6ddb85635d1e234995e40d7844014a74 = L.polyline(
+                [[41.810067, 2.0893778], [41.7306106, 2.1477179]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            poly_line_6ddb85635d1e234995e40d7844014a74.bindTooltip(
+                `<div>
+                     De Monistrol de Calders a Sant Quirze Safaja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ae83a36a1cda467fab30520dbdf6cb41 = L.polyline(
+                [[41.7306106, 2.1477179], [41.8105808, 2.0897397]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            poly_line_ae83a36a1cda467fab30520dbdf6cb41.bindTooltip(
+                `<div>
+                     De Sant Quirze Safaja a Calders
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9cd0d8236a1fe65a3ccad26399f72c28 = L.polyline(
+                [[41.8105808, 2.0897397], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc2138f84de04da7037ea9ac70b64aae);
+        
+    
+            poly_line_9cd0d8236a1fe65a3ccad26399f72c28.bindTooltip(
+                `<div>
+                     De Calders a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9859da4a56ace49008fb9794b6878363 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9859da4a56ace49008fb9794b6878363" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9859da4a56ace49008fb9794b6878363 = L.map(
+                "map_9859da4a56ace49008fb9794b6878363",
+                {
+                    center: [41.18411992, 1.081924372],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7f2cc50c53bd822585c179af94351b0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7f2cc50c53bd822585c179af94351b0a.addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var marker_7b0bfb0e2647a9a9402b24c4134171a8 = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_b567e68ddf23ac34633354606a335d41 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7b0bfb0e2647a9a9402b24c4134171a8.setIcon(icon_b567e68ddf23ac34633354606a335d41);
+        
+    
+            marker_7b0bfb0e2647a9a9402b24c4134171a8.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d97b73c787208c54119bc057f2e5db9f = L.marker(
+                [41.2010984, 1.0457461],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_fd1b81cbc6494f88b9ec3f8494ccdf51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d97b73c787208c54119bc057f2e5db9f.setIcon(icon_fd1b81cbc6494f88b9ec3f8494ccdf51);
+        
+    
+            marker_d97b73c787208c54119bc057f2e5db9f.bindTooltip(
+                `<div>
+                     Aleixar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cd447fffdad856ff46e42aff4db860d = L.marker(
+                [41.2066087, 0.9533984],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_d533e7b7083ce8583a731f59f8cc6c36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cd447fffdad856ff46e42aff4db860d.setIcon(icon_d533e7b7083ce8583a731f59f8cc6c36);
+        
+    
+            marker_4cd447fffdad856ff46e42aff4db860d.bindTooltip(
+                `<div>
+                     Alforja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_306056f568303224da4cef12e5bb6542 = L.marker(
+                [41.2288429, 1.0337801],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_3812bb799c3b1c90d2e2c9ad5510badf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_306056f568303224da4cef12e5bb6542.setIcon(icon_3812bb799c3b1c90d2e2c9ad5510badf);
+        
+    
+            marker_306056f568303224da4cef12e5bb6542.bindTooltip(
+                `<div>
+                     Vilaplana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f03564488305ab5b2f6b74bb80de1a43 = L.marker(
+                [41.1816242, 1.0451477],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_c6f30a9978d67f60c75c8a0f2e9e8ccd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f03564488305ab5b2f6b74bb80de1a43.setIcon(icon_c6f30a9978d67f60c75c8a0f2e9e8ccd);
+        
+    
+            marker_f03564488305ab5b2f6b74bb80de1a43.bindTooltip(
+                `<div>
+                     Maspujols
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4425fbed03dc470ecc7f2506a2ec2041 = L.marker(
+                [41.1458284, 0.9301201],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_df856c1f641e8fbd1188d6479912f6ae = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4425fbed03dc470ecc7f2506a2ec2041.setIcon(icon_df856c1f641e8fbd1188d6479912f6ae);
+        
+    
+            marker_4425fbed03dc470ecc7f2506a2ec2041.bindTooltip(
+                `<div>
+                     Duesaigües
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f15287d677126029e5a59dc017ec268a = L.marker(
+                [41.1683032, 0.9765594],
+                {}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            var icon_7afc525fa71f7ba38a0bddf0a7bcba87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f15287d677126029e5a59dc017ec268a.setIcon(icon_7afc525fa71f7ba38a0bddf0a7bcba87);
+        
+    
+            marker_f15287d677126029e5a59dc017ec268a.bindTooltip(
+                `<div>
+                     Riudecols
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2d929af6bd2e81c1d86e8b4b9e6629a2 = L.polyline(
+                [[41.1415583, 1.2202436], [41.2010984, 1.0457461]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_2d929af6bd2e81c1d86e8b4b9e6629a2.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Aleixar
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d762b7f98eba89f56a6334ade3dfc0af = L.polyline(
+                [[41.2010984, 1.0457461], [41.2066087, 0.9533984]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_d762b7f98eba89f56a6334ade3dfc0af.bindTooltip(
+                `<div>
+                     De Aleixar a Alforja
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_42ae2ec50f3f251813b644333d6ee467 = L.polyline(
+                [[41.2066087, 0.9533984], [41.2288429, 1.0337801]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_42ae2ec50f3f251813b644333d6ee467.bindTooltip(
+                `<div>
+                     De Alforja a Vilaplana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_37c5b1ec77371389c1dba6efa9c2dcfe = L.polyline(
+                [[41.2288429, 1.0337801], [41.1816242, 1.0451477]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_37c5b1ec77371389c1dba6efa9c2dcfe.bindTooltip(
+                `<div>
+                     De Vilaplana a Maspujols
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c7df58ea2805efc8b004043ce1c9c503 = L.polyline(
+                [[41.1816242, 1.0451477], [41.1458284, 0.9301201]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_c7df58ea2805efc8b004043ce1c9c503.bindTooltip(
+                `<div>
+                     De Maspujols a Duesaigües
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a474a6f3edf8d06eb4f466327fcbc635 = L.polyline(
+                [[41.1458284, 0.9301201], [41.1683032, 0.9765594]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_a474a6f3edf8d06eb4f466327fcbc635.bindTooltip(
+                `<div>
+                     De Duesaigües a Riudecols
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_046395cc2585cd0d754c059163fe3d58 = L.polyline(
+                [[41.1683032, 0.9765594], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9859da4a56ace49008fb9794b6878363);
+        
+    
+            poly_line_046395cc2585cd0d754c059163fe3d58.bindTooltip(
+                `<div>
+                     De Riudecols a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

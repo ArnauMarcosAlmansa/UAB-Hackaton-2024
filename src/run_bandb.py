@@ -11,7 +11,7 @@ from src.data.gmp import coords
 
 dotenv.load_dotenv()
 
-ruta2, ruta4, ruta5 = load_from_xlsx("../data/Dades_Municipis.xlsx")
+ruta2, ruta4, ruta5 = load_from_xlsx("./data/Dades_Municipis.xlsx")
 
 girona, barcelona, tarragona = [
                 Town(batch=0, block=0, region="", ine_code="", name="Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona", population=0,
@@ -36,9 +36,9 @@ workdays_per_block = split_into_packs(workdays_of_month)
 
 for origin_name, batch, ruta in zip(["tarragona", "girona", "barcelona"], [2, 4, 5], [ruta2, ruta4, ruta5]):
     for block, workdays in zip([1, 2, 3, 4], workdays_per_block):
-        distance_matrix = np.load(f"../data/{batch}_{block}.npy")
-        origin_distances = np.load(f"../data/{origin_name}_{batch}_{block}.npy")
-        coords = np.load(f"../data/coords_{batch}_{block}.npy")
+        distance_matrix = np.load(f"./data/{batch}_{block}.npy")
+        origin_distances = np.load(f"./data/{origin_name}_{batch}_{block}.npy")
+        coords = np.load(f"./data/coords_{batch}_{block}.npy")
 
         print(f"LOTE = {batch}")
         print(f"ORIGEN = {origin_name}")

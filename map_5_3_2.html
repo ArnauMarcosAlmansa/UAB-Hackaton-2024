@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d5406d47e1a74a1197c950d9d9cb1417 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d5406d47e1a74a1197c950d9d9cb1417" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d5406d47e1a74a1197c950d9d9cb1417 = L.map(
+                "map_d5406d47e1a74a1197c950d9d9cb1417",
+                {
+                    center: [41.97896863846153, 2.2703976999999993],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_147f1b917571a53817b400561e12fb5d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_147f1b917571a53817b400561e12fb5d.addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var marker_a6ebc2a16ed373083054f52caeea4cb4 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var icon_59b57f95eead2d0475e5c2d00c7966d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a6ebc2a16ed373083054f52caeea4cb4.setIcon(icon_59b57f95eead2d0475e5c2d00c7966d7);
+        
+    
+            marker_a6ebc2a16ed373083054f52caeea4cb4.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fffe8d2b3eb8626cf66a967d24a42cea = L.marker(
+                [41.9858803, 2.3112054],
+                {}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var icon_60e4d5917caadf303a2dc7eff858c4ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fffe8d2b3eb8626cf66a967d24a42cea.setIcon(icon_60e4d5917caadf303a2dc7eff858c4ce);
+        
+    
+            marker_fffe8d2b3eb8626cf66a967d24a42cea.bindTooltip(
+                `<div>
+                     Masies de Roda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_10c0d3d00421aef62a72dd29fb1b6b12 = L.marker(
+                [41.9936567, 2.2217015],
+                {}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var icon_f712b47baf741919e1712690c80aa6bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_10c0d3d00421aef62a72dd29fb1b6b12.setIcon(icon_f712b47baf741919e1712690c80aa6bd);
+        
+    
+            marker_10c0d3d00421aef62a72dd29fb1b6b12.bindTooltip(
+                `<div>
+                     Santa Cecília de Voltregà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d5cd89847f263f959acff59faf439a7 = L.marker(
+                [41.99526669999999, 2.4177834],
+                {}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var icon_0c6b83a54a1ee2128773f7d1621b8ea2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d5cd89847f263f959acff59faf439a7.setIcon(icon_0c6b83a54a1ee2128773f7d1621b8ea2);
+        
+    
+            marker_2d5cd89847f263f959acff59faf439a7.bindTooltip(
+                `<div>
+                     Tavertet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b626cc319b2358a7382e1a982f82c4ec = L.marker(
+                [42.0245042, 2.4655228],
+                {}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var icon_0340d523e22b816a5272b7cb00ffc6b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b626cc319b2358a7382e1a982f82c4ec.setIcon(icon_0340d523e22b816a5272b7cb00ffc6b1);
+        
+    
+            marker_b626cc319b2358a7382e1a982f82c4ec.bindTooltip(
+                `<div>
+                     Rupit i Pruit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6dcd355ea680c4cdb173e3168c80fb1c = L.marker(
+                [41.9689099, 2.1548473],
+                {}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            var icon_bb80266d9e88565e9e1ab0158ed4415b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6dcd355ea680c4cdb173e3168c80fb1c.setIcon(icon_bb80266d9e88565e9e1ab0158ed4415b);
+        
+    
+            marker_6dcd355ea680c4cdb173e3168c80fb1c.bindTooltip(
+                `<div>
+                     Sant Bartomeu del Grau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a048eab9745ef2cf227a7cfde584c253 = L.polyline(
+                [[41.3108114, 2.0730202], [41.9858803, 2.3112054]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            poly_line_a048eab9745ef2cf227a7cfde584c253.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Masies de Roda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_86176043e51fd705439a7c18c65863aa = L.polyline(
+                [[41.9858803, 2.3112054], [41.9936567, 2.2217015]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            poly_line_86176043e51fd705439a7c18c65863aa.bindTooltip(
+                `<div>
+                     De Masies de Roda a Santa Cecília de Voltregà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e81a3a20ebfda9f2764fb2405c34b64f = L.polyline(
+                [[41.9936567, 2.2217015], [41.99526669999999, 2.4177834]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            poly_line_e81a3a20ebfda9f2764fb2405c34b64f.bindTooltip(
+                `<div>
+                     De Santa Cecília de Voltregà a Tavertet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_87afb7c7c9775db73d31a31b09afb870 = L.polyline(
+                [[41.99526669999999, 2.4177834], [42.0245042, 2.4655228]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            poly_line_87afb7c7c9775db73d31a31b09afb870.bindTooltip(
+                `<div>
+                     De Tavertet a Rupit i Pruit
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f27f2046c6cc91f1eac3120173b2622b = L.polyline(
+                [[42.0245042, 2.4655228], [41.9689099, 2.1548473]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            poly_line_f27f2046c6cc91f1eac3120173b2622b.bindTooltip(
+                `<div>
+                     De Rupit i Pruit a Sant Bartomeu del Grau
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_98193dadd487aa05f346d62248abff0d = L.polyline(
+                [[41.9689099, 2.1548473], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d5406d47e1a74a1197c950d9d9cb1417);
+        
+    
+            poly_line_98193dadd487aa05f346d62248abff0d.bindTooltip(
+                `<div>
+                     De Sant Bartomeu del Grau a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

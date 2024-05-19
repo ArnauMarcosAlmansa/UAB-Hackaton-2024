@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ada76cdae4037f7469d4d68a8d476763 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ada76cdae4037f7469d4d68a8d476763" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ada76cdae4037f7469d4d68a8d476763 = L.map(
+                "map_ada76cdae4037f7469d4d68a8d476763",
+                {
+                    center: [41.97896863846153, 2.2703976999999993],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f744515329762dcac7a02ff31988de89 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f744515329762dcac7a02ff31988de89.addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            var marker_e66aef01888716a2238ce2914a353005 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            var icon_e50fe29448190c5bebcf12cb37c440aa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e66aef01888716a2238ce2914a353005.setIcon(icon_e50fe29448190c5bebcf12cb37c440aa);
+        
+    
+            marker_e66aef01888716a2238ce2914a353005.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8cabc1bc4838746938c573e6b6663d9 = L.marker(
+                [41.8782719, 2.1809983],
+                {}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            var icon_1b21c365bc07d17addab701317de9a9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d8cabc1bc4838746938c573e6b6663d9.setIcon(icon_1b21c365bc07d17addab701317de9a9c);
+        
+    
+            marker_d8cabc1bc4838746938c573e6b6663d9.bindTooltip(
+                `<div>
+                     Muntanyola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a0949a5d7b7a506dd300778fa4d1167c = L.marker(
+                [41.940098, 2.3162571],
+                {}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            var icon_58eb907050416ba011666b077154f4f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a0949a5d7b7a506dd300778fa4d1167c.setIcon(icon_58eb907050416ba011666b077154f4f1);
+        
+    
+            marker_a0949a5d7b7a506dd300778fa4d1167c.bindTooltip(
+                `<div>
+                     Folgueroles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_067a45eb1e5257c482b72e7662214a08 = L.marker(
+                [41.9013387, 2.2821595],
+                {}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            var icon_c927c3b6e24b4f22a3ae05a4440dcd00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_067a45eb1e5257c482b72e7662214a08.setIcon(icon_c927c3b6e24b4f22a3ae05a4440dcd00);
+        
+    
+            marker_067a45eb1e5257c482b72e7662214a08.bindTooltip(
+                `<div>
+                     Santa Eugènia de Berga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d8c450354b931c62225b72858266ac19 = L.polyline(
+                [[41.3108114, 2.0730202], [41.8782719, 2.1809983]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            poly_line_d8c450354b931c62225b72858266ac19.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Muntanyola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0ccb66fe509987b0a56dd649637349ab = L.polyline(
+                [[41.8782719, 2.1809983], [41.940098, 2.3162571]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            poly_line_0ccb66fe509987b0a56dd649637349ab.bindTooltip(
+                `<div>
+                     De Muntanyola a Folgueroles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9a0adb3951f4e0f607f05aa9f8bcc85c = L.polyline(
+                [[41.940098, 2.3162571], [41.9013387, 2.2821595]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            poly_line_9a0adb3951f4e0f607f05aa9f8bcc85c.bindTooltip(
+                `<div>
+                     De Folgueroles a Santa Eugènia de Berga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f0b8a1f1ca585b412edfc52bb80e49f1 = L.polyline(
+                [[41.9013387, 2.2821595], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_ada76cdae4037f7469d4d68a8d476763);
+        
+    
+            poly_line_f0b8a1f1ca585b412edfc52bb80e49f1.bindTooltip(
+                `<div>
+                     De Santa Eugènia de Berga a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

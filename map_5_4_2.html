@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_441bc2f0c1d7167c5f7bbf79753b5681 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_441bc2f0c1d7167c5f7bbf79753b5681" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_441bc2f0c1d7167c5f7bbf79753b5681 = L.map(
+                "map_441bc2f0c1d7167c5f7bbf79753b5681",
+                {
+                    center: [42.221239613333324, 2.0115111633333336],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a8af74e04fdb732eaac83b588c973e22 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a8af74e04fdb732eaac83b588c973e22.addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var marker_dcb1e321285d4b5af7d2ca6d47489d5a = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var icon_f15e37507f4cf40c23101a567758fd45 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dcb1e321285d4b5af7d2ca6d47489d5a.setIcon(icon_f15e37507f4cf40c23101a567758fd45);
+        
+    
+            marker_dcb1e321285d4b5af7d2ca6d47489d5a.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bcabaf46e49e98ff7cfc76cb45d9281f = L.marker(
+                [42.1347563, 1.9939643],
+                {}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var icon_45357f468579fb6baee03c0637390ad2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bcabaf46e49e98ff7cfc76cb45d9281f.setIcon(icon_45357f468579fb6baee03c0637390ad2);
+        
+    
+            marker_bcabaf46e49e98ff7cfc76cb45d9281f.bindTooltip(
+                `<div>
+                     Borredà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a06e56f558f20d86faf40208d58ebee8 = L.marker(
+                [42.1730883, 1.9452014],
+                {}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var icon_0c77e1136fdb0510d8cbff1fa95a3b1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a06e56f558f20d86faf40208d58ebee8.setIcon(icon_0c77e1136fdb0510d8cbff1fa95a3b1d);
+        
+    
+            marker_a06e56f558f20d86faf40208d58ebee8.bindTooltip(
+                `<div>
+                     Castell de l'Areny
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87c68afc4aa6f9574ddaed125bbbaea3 = L.marker(
+                [42.1871657, 2.023848],
+                {}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var icon_ce178c77fc5cfcff94565640139a952e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_87c68afc4aa6f9574ddaed125bbbaea3.setIcon(icon_ce178c77fc5cfcff94565640139a952e);
+        
+    
+            marker_87c68afc4aa6f9574ddaed125bbbaea3.bindTooltip(
+                `<div>
+                     Sant Jaume de Frontanyà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b21fa099d576fb666f33cb7912615423 = L.marker(
+                [42.2035507, 1.8180608],
+                {}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var icon_68e8810e6311b3b76351fe8a12260a6b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b21fa099d576fb666f33cb7912615423.setIcon(icon_68e8810e6311b3b76351fe8a12260a6b);
+        
+    
+            marker_b21fa099d576fb666f33cb7912615423.bindTooltip(
+                `<div>
+                     Vallcebre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aeb2ff4047337f5bbdec2d460ed51943 = L.marker(
+                [42.22347, 1.8919141],
+                {}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            var icon_b8645263b992572e03fb014dbbc97e32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_aeb2ff4047337f5bbdec2d460ed51943.setIcon(icon_b8645263b992572e03fb014dbbc97e32);
+        
+    
+            marker_aeb2ff4047337f5bbdec2d460ed51943.bindTooltip(
+                `<div>
+                     Sant Julià de Cerdanyola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f9036519c6a19dd1857ab6a70161cd5e = L.polyline(
+                [[41.3108114, 2.0730202], [42.1347563, 1.9939643]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            poly_line_f9036519c6a19dd1857ab6a70161cd5e.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Borredà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6d163e74821ab81acac235f170211b7e = L.polyline(
+                [[42.1347563, 1.9939643], [42.1730883, 1.9452014]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            poly_line_6d163e74821ab81acac235f170211b7e.bindTooltip(
+                `<div>
+                     De Borredà a Castell de l'Areny
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_16833c84aabe8a6111134faefa5c44bc = L.polyline(
+                [[42.1730883, 1.9452014], [42.1871657, 2.023848]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            poly_line_16833c84aabe8a6111134faefa5c44bc.bindTooltip(
+                `<div>
+                     De Castell de l'Areny a Sant Jaume de Frontanyà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6d1dc81cf2eda3fc9f84bbeb09a70ea7 = L.polyline(
+                [[42.1871657, 2.023848], [42.2035507, 1.8180608]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            poly_line_6d1dc81cf2eda3fc9f84bbeb09a70ea7.bindTooltip(
+                `<div>
+                     De Sant Jaume de Frontanyà a Vallcebre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0d9c7e94747d86a9c59309e8298ab416 = L.polyline(
+                [[42.2035507, 1.8180608], [42.22347, 1.8919141]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            poly_line_0d9c7e94747d86a9c59309e8298ab416.bindTooltip(
+                `<div>
+                     De Vallcebre a Sant Julià de Cerdanyola
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_217492e95fe6dbeb8394608063755e2e = L.polyline(
+                [[42.22347, 1.8919141], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_441bc2f0c1d7167c5f7bbf79753b5681);
+        
+    
+            poly_line_217492e95fe6dbeb8394608063755e2e.bindTooltip(
+                `<div>
+                     De Sant Julià de Cerdanyola a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

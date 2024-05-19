@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a3616f51a3471b56ecd3a24ee2240d6c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a3616f51a3471b56ecd3a24ee2240d6c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a3616f51a3471b56ecd3a24ee2240d6c = L.map(
+                "map_a3616f51a3471b56ecd3a24ee2240d6c",
+                {
+                    center: [42.03185197692307, 3.0581636153846152],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f4b57a2aa508260a43df23631e54b43d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f4b57a2aa508260a43df23631e54b43d.addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var marker_7fafed36a7f5782597c74994c86a8ebd = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_fc3645e878843e2aedc2d5fc8d586c4f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7fafed36a7f5782597c74994c86a8ebd.setIcon(icon_fc3645e878843e2aedc2d5fc8d586c4f);
+        
+    
+            marker_7fafed36a7f5782597c74994c86a8ebd.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_093ba8a279305b97e26b9dab0392bc50 = L.marker(
+                [42.0207324, 3.0400945],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_17385cc16cf92e75ee220ca071dd158e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_093ba8a279305b97e26b9dab0392bc50.setIcon(icon_17385cc16cf92e75ee220ca071dd158e);
+        
+    
+            marker_093ba8a279305b97e26b9dab0392bc50.bindTooltip(
+                `<div>
+                     Parlavà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28fe479892c0fe39d5148875ad36a9b1 = L.marker(
+                [42.0196728, 2.9741186],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_e7cd9a3e43aa74c7772d8063385131cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_28fe479892c0fe39d5148875ad36a9b1.setIcon(icon_e7cd9a3e43aa74c7772d8063385131cb);
+        
+    
+            marker_28fe479892c0fe39d5148875ad36a9b1.bindTooltip(
+                `<div>
+                     Pera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_63c056c8123a2f199d6e9ab2aac07c62 = L.marker(
+                [42.0140341, 3.0125674],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_8db8d8493bb4980dbd1d26605499c0f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_63c056c8123a2f199d6e9ab2aac07c62.setIcon(icon_8db8d8493bb4980dbd1d26605499c0f3);
+        
+    
+            marker_63c056c8123a2f199d6e9ab2aac07c62.bindTooltip(
+                `<div>
+                     Rupià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7b4730e64c28540bdb44a324db3edc0 = L.marker(
+                [41.9872589, 3.0144382],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_52d09cb1444959094c94734ad7bb7b4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a7b4730e64c28540bdb44a324db3edc0.setIcon(icon_52d09cb1444959094c94734ad7bb7b4d);
+        
+    
+            marker_a7b4730e64c28540bdb44a324db3edc0.bindTooltip(
+                `<div>
+                     Corçà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2017cd0cc80ac33240ec53d963cc80f2 = L.marker(
+                [42.0399835, 2.9975238],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_6ae16a6b7b50cad6d8ee4491397213fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2017cd0cc80ac33240ec53d963cc80f2.setIcon(icon_6ae16a6b7b50cad6d8ee4491397213fa);
+        
+    
+            marker_2017cd0cc80ac33240ec53d963cc80f2.bindTooltip(
+                `<div>
+                     Foixà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_000218f989737af0e7c70f06a0f0da49 = L.marker(
+                [42.0263922, 3.1037253],
+                {}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            var icon_c369fca919a793be735cb1492867a50b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_000218f989737af0e7c70f06a0f0da49.setIcon(icon_c369fca919a793be735cb1492867a50b);
+        
+    
+            marker_000218f989737af0e7c70f06a0f0da49.bindTooltip(
+                `<div>
+                     Gualta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ee4baafe00bc7e6fa9bfae5d594d37e0 = L.polyline(
+                [[41.9347295, 2.8000358], [42.0207324, 3.0400945]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_ee4baafe00bc7e6fa9bfae5d594d37e0.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Parlavà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a7656f2dfc3115a9f7e3c10445cb26c6 = L.polyline(
+                [[42.0207324, 3.0400945], [42.0196728, 2.9741186]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_a7656f2dfc3115a9f7e3c10445cb26c6.bindTooltip(
+                `<div>
+                     De Parlavà a Pera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6f84efe7d2e412e07bcf06ab644af115 = L.polyline(
+                [[42.0196728, 2.9741186], [42.0140341, 3.0125674]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_6f84efe7d2e412e07bcf06ab644af115.bindTooltip(
+                `<div>
+                     De Pera a Rupià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_188aafd59f478b243c361d84471a72a2 = L.polyline(
+                [[42.0140341, 3.0125674], [41.9872589, 3.0144382]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_188aafd59f478b243c361d84471a72a2.bindTooltip(
+                `<div>
+                     De Rupià a Corçà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0f1a5d9de22212a6df30f3bdb0cfb689 = L.polyline(
+                [[41.9872589, 3.0144382], [42.0399835, 2.9975238]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_0f1a5d9de22212a6df30f3bdb0cfb689.bindTooltip(
+                `<div>
+                     De Corçà a Foixà
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_01c400341caf9eea68f54ed9a6b84b7e = L.polyline(
+                [[42.0399835, 2.9975238], [42.0263922, 3.1037253]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_01c400341caf9eea68f54ed9a6b84b7e.bindTooltip(
+                `<div>
+                     De Foixà a Gualta
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ee1e4411acda8139224c4428f04a6394 = L.polyline(
+                [[42.0263922, 3.1037253], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a3616f51a3471b56ecd3a24ee2240d6c);
+        
+    
+            poly_line_ee1e4411acda8139224c4428f04a6394.bindTooltip(
+                `<div>
+                     De Gualta a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_21254a79738773d65c811e33fb6db2aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_21254a79738773d65c811e33fb6db2aa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_21254a79738773d65c811e33fb6db2aa = L.map(
+                "map_21254a79738773d65c811e33fb6db2aa",
+                {
+                    center: [41.659282741666665, 2.1710888125000003],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_979be63c157b773dd12ef1df7eaead27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_979be63c157b773dd12ef1df7eaead27.addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var marker_7a7ce4c59e7076fffe7609b6ece31a27 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var icon_207e2c511548fb7da13493c6d6d1d005 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a7ce4c59e7076fffe7609b6ece31a27.setIcon(icon_207e2c511548fb7da13493c6d6d1d005);
+        
+    
+            marker_7a7ce4c59e7076fffe7609b6ece31a27.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d762427c7ab8d3bd3e64a9d2f17bf0e9 = L.marker(
+                [41.6520479, 2.4400208],
+                {}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var icon_fb92e11dc0f455e7134574ab696e4559 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d762427c7ab8d3bd3e64a9d2f17bf0e9.setIcon(icon_fb92e11dc0f455e7134574ab696e4559);
+        
+    
+            marker_d762427c7ab8d3bd3e64a9d2f17bf0e9.bindTooltip(
+                `<div>
+                     Vilalba Sasserra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_025d58c101234609411179136f4f8b22 = L.marker(
+                [41.7250133, 2.4639623],
+                {}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var icon_9dfc3628821c075cf0a90a627370ada3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_025d58c101234609411179136f4f8b22.setIcon(icon_9dfc3628821c075cf0a90a627370ada3);
+        
+    
+            marker_025d58c101234609411179136f4f8b22.bindTooltip(
+                `<div>
+                     Campins
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0329834fbfcbfbac5f84ce5214ff150f = L.marker(
+                [41.7318992, 2.5022418],
+                {}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var icon_74854576f2faaae32da345a75b462b9e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0329834fbfcbfbac5f84ce5214ff150f.setIcon(icon_74854576f2faaae32da345a75b462b9e);
+        
+    
+            marker_0329834fbfcbfbac5f84ce5214ff150f.bindTooltip(
+                `<div>
+                     Gualba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_73c20881bd9bfa4e1dba18367d4f6ed2 = L.marker(
+                [41.7274934, 2.4428424],
+                {}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var icon_51d9b7a7bec5475dd258fbe2653c7b14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_73c20881bd9bfa4e1dba18367d4f6ed2.setIcon(icon_51d9b7a7bec5475dd258fbe2653c7b14);
+        
+    
+            marker_73c20881bd9bfa4e1dba18367d4f6ed2.bindTooltip(
+                `<div>
+                     Fogars de Montclús
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5cef59230ac428641f293575315f942a = L.marker(
+                [41.7587683, 2.3955568],
+                {}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            var icon_65f61a05b76774b642f0f0283872e5f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cef59230ac428641f293575315f942a.setIcon(icon_65f61a05b76774b642f0f0283872e5f6);
+        
+    
+            marker_5cef59230ac428641f293575315f942a.bindTooltip(
+                `<div>
+                     Montseny
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_dc5fc527fb9f3d26227f8724bae93251 = L.polyline(
+                [[41.3108114, 2.0730202], [41.6520479, 2.4400208]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            poly_line_dc5fc527fb9f3d26227f8724bae93251.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Vilalba Sasserra
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_40e5c9754ada5d10d0a777fdb65d7467 = L.polyline(
+                [[41.6520479, 2.4400208], [41.7250133, 2.4639623]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            poly_line_40e5c9754ada5d10d0a777fdb65d7467.bindTooltip(
+                `<div>
+                     De Vilalba Sasserra a Campins
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e6c765fea7bc75fcb948bd1ad9d5a825 = L.polyline(
+                [[41.7250133, 2.4639623], [41.7318992, 2.5022418]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            poly_line_e6c765fea7bc75fcb948bd1ad9d5a825.bindTooltip(
+                `<div>
+                     De Campins a Gualba
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2cfe73ac6a496c2f3928e53b881ed121 = L.polyline(
+                [[41.7318992, 2.5022418], [41.7274934, 2.4428424]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            poly_line_2cfe73ac6a496c2f3928e53b881ed121.bindTooltip(
+                `<div>
+                     De Gualba a Fogars de Montclús
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_990ac51506cd2df1c1f450041e9260f1 = L.polyline(
+                [[41.7274934, 2.4428424], [41.7587683, 2.3955568]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            poly_line_990ac51506cd2df1c1f450041e9260f1.bindTooltip(
+                `<div>
+                     De Fogars de Montclús a Montseny
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ae8921098492efcff63f14cd84551065 = L.polyline(
+                [[41.7587683, 2.3955568], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_21254a79738773d65c811e33fb6db2aa);
+        
+    
+            poly_line_ae8921098492efcff63f14cd84551065.bindTooltip(
+                `<div>
+                     De Montseny a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_caad86a49874da0bc2c003adb986e01a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_caad86a49874da0bc2c003adb986e01a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_caad86a49874da0bc2c003adb986e01a = L.map(
+                "map_caad86a49874da0bc2c003adb986e01a",
+                {
+                    center: [42.261663130769236, 2.7364339653846157],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30732d2166124b26de2940b33d7037d7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_30732d2166124b26de2940b33d7037d7.addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var marker_993cc349f793b8514bdec92fbff941d7 = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var icon_692de985565339a3b48ba63cb8300df7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_993cc349f793b8514bdec92fbff941d7.setIcon(icon_692de985565339a3b48ba63cb8300df7);
+        
+    
+            marker_993cc349f793b8514bdec92fbff941d7.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e2ac6b2f527e52faa1cf3f3006d4b38e = L.marker(
+                [42.2160996, 2.6415719],
+                {}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var icon_34725131f80e6d810ddc5fd9d3bbd251 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e2ac6b2f527e52faa1cf3f3006d4b38e.setIcon(icon_34725131f80e6d810ddc5fd9d3bbd251);
+        
+    
+            marker_e2ac6b2f527e52faa1cf3f3006d4b38e.bindTooltip(
+                `<div>
+                     Argelaguer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eb40e7a02d78292850891415e08fbb9b = L.marker(
+                [42.1888537, 2.4085624],
+                {}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var icon_41f62b98a2a0e1c17564dd377946c165 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_eb40e7a02d78292850891415e08fbb9b.setIcon(icon_41f62b98a2a0e1c17564dd377946c165);
+        
+    
+            marker_eb40e7a02d78292850891415e08fbb9b.bindTooltip(
+                `<div>
+                     Riudaura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1e1b57c071029b6a11e9548b30a4ade = L.marker(
+                [42.2119401, 2.5941239],
+                {}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var icon_67c9759674f9586d4b4cc53c29a2f8b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f1e1b57c071029b6a11e9548b30a4ade.setIcon(icon_67c9759674f9586d4b4cc53c29a2f8b2);
+        
+    
+            marker_f1e1b57c071029b6a11e9548b30a4ade.bindTooltip(
+                `<div>
+                     Sant Jaume de Llierca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3de4f00782660988355de25d4ff79c36 = L.marker(
+                [42.2110492, 2.453826],
+                {}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var icon_8ab0bb7ada9ce3277a12031ace7ee6cc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3de4f00782660988355de25d4ff79c36.setIcon(icon_8ab0bb7ada9ce3277a12031ace7ee6cc);
+        
+    
+            marker_3de4f00782660988355de25d4ff79c36.bindTooltip(
+                `<div>
+                     Vall de Bianya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ad05c0b6ea591693401dadacd5e33e17 = L.marker(
+                [42.2718071, 2.5285315],
+                {}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            var icon_126a1676b6bf65fd5e850d867ddb15b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ad05c0b6ea591693401dadacd5e33e17.setIcon(icon_126a1676b6bf65fd5e850d867ddb15b6);
+        
+    
+            marker_ad05c0b6ea591693401dadacd5e33e17.bindTooltip(
+                `<div>
+                     Montagut i Oix
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_58b38b2560a2f15a7dcae01714a4ebf7 = L.polyline(
+                [[41.9347295, 2.8000358], [42.2160996, 2.6415719]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            poly_line_58b38b2560a2f15a7dcae01714a4ebf7.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Argelaguer
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_8a745cd3120c311be6dd3f4d75aa6ef3 = L.polyline(
+                [[42.2160996, 2.6415719], [42.1888537, 2.4085624]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            poly_line_8a745cd3120c311be6dd3f4d75aa6ef3.bindTooltip(
+                `<div>
+                     De Argelaguer a Riudaura
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6536955bd637a14266b685d735a0c60f = L.polyline(
+                [[42.1888537, 2.4085624], [42.2119401, 2.5941239]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            poly_line_6536955bd637a14266b685d735a0c60f.bindTooltip(
+                `<div>
+                     De Riudaura a Sant Jaume de Llierca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_968802a79d45642d402ab62f3d143f16 = L.polyline(
+                [[42.2119401, 2.5941239], [42.2110492, 2.453826]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            poly_line_968802a79d45642d402ab62f3d143f16.bindTooltip(
+                `<div>
+                     De Sant Jaume de Llierca a Vall de Bianya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a889f893ef5de27739a6954d659de11d = L.polyline(
+                [[42.2110492, 2.453826], [42.2718071, 2.5285315]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            poly_line_a889f893ef5de27739a6954d659de11d.bindTooltip(
+                `<div>
+                     De Vall de Bianya a Montagut i Oix
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_152f5b69734178c06eab1cf28888f1ad = L.polyline(
+                [[42.2718071, 2.5285315], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_caad86a49874da0bc2c003adb986e01a);
+        
+    
+            poly_line_152f5b69734178c06eab1cf28888f1ad.bindTooltip(
+                `<div>
+                     De Montagut i Oix a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

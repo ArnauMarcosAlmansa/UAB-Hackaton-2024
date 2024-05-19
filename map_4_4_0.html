@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fccab8ae7e13236f5ca3a0137de9dc3d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fccab8ae7e13236f5ca3a0137de9dc3d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fccab8ae7e13236f5ca3a0137de9dc3d = L.map(
+                "map_fccab8ae7e13236f5ca3a0137de9dc3d",
+                {
+                    center: [42.00166738800001, 2.7770124080000005],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ff8c83741a8f5c4b9d32f489904c36b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0ff8c83741a8f5c4b9d32f489904c36b.addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var marker_b25419bd922ebdcd98227efc4e47c9da = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var icon_a7e03bc7056940496f248eed035af4f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b25419bd922ebdcd98227efc4e47c9da.setIcon(icon_a7e03bc7056940496f248eed035af4f0);
+        
+    
+            marker_b25419bd922ebdcd98227efc4e47c9da.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d3474602b5635f9b578ec7caf95ee74 = L.marker(
+                [41.9213427, 2.8591701],
+                {}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var icon_4fb7f53b6082ff3e1b061a96b2381e08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d3474602b5635f9b578ec7caf95ee74.setIcon(icon_4fb7f53b6082ff3e1b061a96b2381e08);
+        
+    
+            marker_8d3474602b5635f9b578ec7caf95ee74.bindTooltip(
+                `<div>
+                     Llambilles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4674cf8f63aa78ef1ab2b5c9d79b6335 = L.marker(
+                [41.8734128, 2.8250035],
+                {}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var icon_2be543688ff11fddbbb69d6c18ed8f37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4674cf8f63aa78ef1ab2b5c9d79b6335.setIcon(icon_2be543688ff11fddbbb69d6c18ed8f37);
+        
+    
+            marker_4674cf8f63aa78ef1ab2b5c9d79b6335.bindTooltip(
+                `<div>
+                     Sant Andreu Salou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_437db944afbdbfd042eba121df93b656 = L.marker(
+                [41.76527249999999, 2.653018],
+                {}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var icon_a6452be43a6a20a2db936eab54d48bd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_437db944afbdbfd042eba121df93b656.setIcon(icon_a6452be43a6a20a2db936eab54d48bd7);
+        
+    
+            marker_437db944afbdbfd042eba121df93b656.bindTooltip(
+                `<div>
+                     Massanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a19df314be22290be557cbe08a462e2f = L.marker(
+                [41.79101370000001, 2.5857557],
+                {}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var icon_f9b461d01c593951a7f636431effe41b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a19df314be22290be557cbe08a462e2f.setIcon(icon_f9b461d01c593951a7f636431effe41b);
+        
+    
+            marker_a19df314be22290be557cbe08a462e2f.bindTooltip(
+                `<div>
+                     Sant Feliu de Buixalleu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8b43627036099fbbd09523f7354f3350 = L.marker(
+                [41.9376629, 2.7620863],
+                {}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            var icon_be80e829e7bd837bdbc41d05b45ea8d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8b43627036099fbbd09523f7354f3350.setIcon(icon_be80e829e7bd837bdbc41d05b45ea8d3);
+        
+    
+            marker_8b43627036099fbbd09523f7354f3350.bindTooltip(
+                `<div>
+                     Aiguaviva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e29694cc40742595a4231fe0ec8ce274 = L.polyline(
+                [[41.9347295, 2.8000358], [41.9213427, 2.8591701]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            poly_line_e29694cc40742595a4231fe0ec8ce274.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Llambilles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d70d233be794bb97fd2ac816a7ce2ab5 = L.polyline(
+                [[41.9213427, 2.8591701], [41.8734128, 2.8250035]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            poly_line_d70d233be794bb97fd2ac816a7ce2ab5.bindTooltip(
+                `<div>
+                     De Llambilles a Sant Andreu Salou
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6c50adb99a3712bdbf9279913f8fa30c = L.polyline(
+                [[41.8734128, 2.8250035], [41.76527249999999, 2.653018]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            poly_line_6c50adb99a3712bdbf9279913f8fa30c.bindTooltip(
+                `<div>
+                     De Sant Andreu Salou a Massanes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_0398183ddf8be35fcd03a88bfc5ecb6b = L.polyline(
+                [[41.76527249999999, 2.653018], [41.79101370000001, 2.5857557]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            poly_line_0398183ddf8be35fcd03a88bfc5ecb6b.bindTooltip(
+                `<div>
+                     De Massanes a Sant Feliu de Buixalleu
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_42d8e3eadcd213f0fe1be263f02c289b = L.polyline(
+                [[41.79101370000001, 2.5857557], [41.9376629, 2.7620863]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            poly_line_42d8e3eadcd213f0fe1be263f02c289b.bindTooltip(
+                `<div>
+                     De Sant Feliu de Buixalleu a Aiguaviva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b96c1ca9ce12200cca301d0cd6fabbcf = L.polyline(
+                [[41.9376629, 2.7620863], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fccab8ae7e13236f5ca3a0137de9dc3d);
+        
+    
+            poly_line_b96c1ca9ce12200cca301d0cd6fabbcf.bindTooltip(
+                `<div>
+                     De Aiguaviva a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

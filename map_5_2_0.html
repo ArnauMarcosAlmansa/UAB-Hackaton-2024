@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40b95933f8838f4df1d299130b1f9436 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_40b95933f8838f4df1d299130b1f9436" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_40b95933f8838f4df1d299130b1f9436 = L.map(
+                "map_40b95933f8838f4df1d299130b1f9436",
+                {
+                    center: [41.89875223333333, 1.979356145833333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_926b971e345621caaa3e52ad612c353b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_926b971e345621caaa3e52ad612c353b.addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            var marker_9b6a94a93785f84d3c5e25c0b25cd268 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            var icon_6b22930fb0e8074b6e6b5e4632014bbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b6a94a93785f84d3c5e25c0b25cd268.setIcon(icon_6b22930fb0e8074b6e6b5e4632014bbb);
+        
+    
+            marker_9b6a94a93785f84d3c5e25c0b25cd268.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6e51d46fada56fe74221354d1474c04 = L.marker(
+                [41.7616585, 1.6669595],
+                {}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            var icon_6498389746b229e1f0ce9ceaa516125f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a6e51d46fada56fe74221354d1474c04.setIcon(icon_6498389746b229e1f0ce9ceaa516125f);
+        
+    
+            marker_a6e51d46fada56fe74221354d1474c04.bindTooltip(
+                `<div>
+                     Fonollosa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3040f60c9cf56946a69f713a6b55e75d = L.marker(
+                [41.7284297, 1.7061442],
+                {}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            var icon_fce3d4d20149d00d730113280bc86bff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3040f60c9cf56946a69f713a6b55e75d.setIcon(icon_fce3d4d20149d00d730113280bc86bff);
+        
+    
+            marker_3040f60c9cf56946a69f713a6b55e75d.bindTooltip(
+                `<div>
+                     Rajadell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b440a292bce954ac83a659009a3f7f98 = L.marker(
+                [41.8343436, 1.8367862],
+                {}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            var icon_6d7a793d9a6e5d09557cb5c06423d155 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b440a292bce954ac83a659009a3f7f98.setIcon(icon_6d7a793d9a6e5d09557cb5c06423d155);
+        
+    
+            marker_b440a292bce954ac83a659009a3f7f98.bindTooltip(
+                `<div>
+                     Castellnou de Bages
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_516124674d78aff6c807bdf1f8acdc82 = L.polyline(
+                [[41.3108114, 2.0730202], [41.7616585, 1.6669595]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            poly_line_516124674d78aff6c807bdf1f8acdc82.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Fonollosa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e10764c363275bd7b98b257716f59bab = L.polyline(
+                [[41.7616585, 1.6669595], [41.7284297, 1.7061442]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            poly_line_e10764c363275bd7b98b257716f59bab.bindTooltip(
+                `<div>
+                     De Fonollosa a Rajadell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9944a68ed3c4bcb9fd082288bcef68ee = L.polyline(
+                [[41.7284297, 1.7061442], [41.8343436, 1.8367862]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            poly_line_9944a68ed3c4bcb9fd082288bcef68ee.bindTooltip(
+                `<div>
+                     De Rajadell a Castellnou de Bages
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_66f90787d3a86127b878c0df58b0a530 = L.polyline(
+                [[41.8343436, 1.8367862], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_40b95933f8838f4df1d299130b1f9436);
+        
+    
+            poly_line_66f90787d3a86127b878c0df58b0a530.bindTooltip(
+                `<div>
+                     De Castellnou de Bages a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

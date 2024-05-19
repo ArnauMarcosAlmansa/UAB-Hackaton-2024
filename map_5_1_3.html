@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cb0f3c52c5118146b8394cbeb9588cbc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cb0f3c52c5118146b8394cbeb9588cbc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cb0f3c52c5118146b8394cbeb9588cbc = L.map(
+                "map_cb0f3c52c5118146b8394cbeb9588cbc",
+                {
+                    center: [41.659282741666665, 2.1710888125000003],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_53301b7dcf2ea6c340ab853f486e43da = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_53301b7dcf2ea6c340ab853f486e43da.addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var marker_cef98a90c273d79ff272faf0aa6ac8f7 = L.marker(
+                [41.3108114, 2.0730202],
+                {}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var icon_1869846447a75f9c53c02d49d7ff8923 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cef98a90c273d79ff272faf0aa6ac8f7.setIcon(icon_1869846447a75f9c53c02d49d7ff8923);
+        
+    
+            marker_cef98a90c273d79ff272faf0aa6ac8f7.bindTooltip(
+                `<div>
+                     Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cf47310fa608cee58007e8b9cd93403 = L.marker(
+                [41.7062899, 2.4319794],
+                {}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var icon_7841b3f8d20c4e3530d783a7d6b2dd42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1cf47310fa608cee58007e8b9cd93403.setIcon(icon_7841b3f8d20c4e3530d783a7d6b2dd42);
+        
+    
+            marker_1cf47310fa608cee58007e8b9cd93403.bindTooltip(
+                `<div>
+                     Sant Esteve de Palautordera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1d48440bdf71a6c40e88e566bdf3e8f = L.marker(
+                [41.6831865, 2.3928002],
+                {}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var icon_b65e7c3ebacad4cc91e0bd581fedc871 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c1d48440bdf71a6c40e88e566bdf3e8f.setIcon(icon_b65e7c3ebacad4cc91e0bd581fedc871);
+        
+    
+            marker_c1d48440bdf71a6c40e88e566bdf3e8f.bindTooltip(
+                `<div>
+                     Sant Pere de Vilamajor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a48f38bc40daa48780ab0426c6e44f16 = L.marker(
+                [41.6939748, 2.3532739],
+                {}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var icon_741c621a7e89589a85f15524b2eed1b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a48f38bc40daa48780ab0426c6e44f16.setIcon(icon_741c621a7e89589a85f15524b2eed1b0);
+        
+    
+            marker_a48f38bc40daa48780ab0426c6e44f16.bindTooltip(
+                `<div>
+                     Cànoves i Samalús
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8a77b1464ec29697a6b9ef286d3df8e8 = L.marker(
+                [41.7208204, 2.2736559],
+                {}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var icon_9cb1cb146d5a2aeaf69b9ccbd4ec5460 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a77b1464ec29697a6b9ef286d3df8e8.setIcon(icon_9cb1cb146d5a2aeaf69b9ccbd4ec5460);
+        
+    
+            marker_8a77b1464ec29697a6b9ef286d3df8e8.bindTooltip(
+                `<div>
+                     Figaró-Montmany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4bce1bbec024d02f6d373841d5543a2b = L.marker(
+                [41.7391536, 2.2665964],
+                {}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            var icon_2963d9b43810704f92fb5ecf0613ac39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4bce1bbec024d02f6d373841d5543a2b.setIcon(icon_2963d9b43810704f92fb5ecf0613ac39);
+        
+    
+            marker_4bce1bbec024d02f6d373841d5543a2b.bindTooltip(
+                `<div>
+                     Tagamanent
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ebddda32d39136308869644c38be36df = L.polyline(
+                [[41.3108114, 2.0730202], [41.7062899, 2.4319794]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            poly_line_ebddda32d39136308869644c38be36df.bindTooltip(
+                `<div>
+                     De Av les Garrigues, 9, 08820, El Prat de Llobregat a Sant Esteve de Palautordera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6910c563aec0f73b208c8f1e9f01961d = L.polyline(
+                [[41.7062899, 2.4319794], [41.6831865, 2.3928002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            poly_line_6910c563aec0f73b208c8f1e9f01961d.bindTooltip(
+                `<div>
+                     De Sant Esteve de Palautordera a Sant Pere de Vilamajor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_6ccf7c8152bc21ef85963cd2061da19d = L.polyline(
+                [[41.6831865, 2.3928002], [41.6939748, 2.3532739]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            poly_line_6ccf7c8152bc21ef85963cd2061da19d.bindTooltip(
+                `<div>
+                     De Sant Pere de Vilamajor a Cànoves i Samalús
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bc214125554146fd75d2e43f8b32a36e = L.polyline(
+                [[41.6939748, 2.3532739], [41.7208204, 2.2736559]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            poly_line_bc214125554146fd75d2e43f8b32a36e.bindTooltip(
+                `<div>
+                     De Cànoves i Samalús a Figaró-Montmany
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_f89eb4fe2e86512754c03b41f0966672 = L.polyline(
+                [[41.7208204, 2.2736559], [41.7391536, 2.2665964]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            poly_line_f89eb4fe2e86512754c03b41f0966672.bindTooltip(
+                `<div>
+                     De Figaró-Montmany a Tagamanent
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_93d4b76d7d23fdbe72ec53f8e7fe15fc = L.polyline(
+                [[41.7391536, 2.2665964], [41.3108114, 2.0730202]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cb0f3c52c5118146b8394cbeb9588cbc);
+        
+    
+            poly_line_93d4b76d7d23fdbe72ec53f8e7fe15fc.bindTooltip(
+                `<div>
+                     De Tagamanent a Av les Garrigues, 9, 08820, El Prat de Llobregat
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_861b1d962ee57bd97190ffd231c166fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_861b1d962ee57bd97190ffd231c166fa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_861b1d962ee57bd97190ffd231c166fa = L.map(
+                "map_861b1d962ee57bd97190ffd231c166fa",
+                {
+                    center: [41.58599656333333, 1.4764925133333333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7a1afd6d6cadb4383dfc5833dd6ed83d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7a1afd6d6cadb4383dfc5833dd6ed83d.addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var marker_4afc550c2e9c20a202e239889012df18 = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var icon_f0eac91b8fb0c209a90d19533a60409a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4afc550c2e9c20a202e239889012df18.setIcon(icon_f0eac91b8fb0c209a90d19533a60409a);
+        
+    
+            marker_4afc550c2e9c20a202e239889012df18.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4618072f930f82bcb6cdf65f049a31f = L.marker(
+                [41.77589330000001, 1.4379359],
+                {}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var icon_d1b8929192bd4c6af88d4eef12cdab3c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e4618072f930f82bcb6cdf65f049a31f.setIcon(icon_d1b8929192bd4c6af88d4eef12cdab3c);
+        
+    
+            marker_e4618072f930f82bcb6cdf65f049a31f.bindTooltip(
+                `<div>
+                     Castellfollit de Riubregós
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_927626b69a4da903217653ac3b21cc23 = L.marker(
+                [41.7061422, 1.5432601],
+                {}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var icon_4b57196c2190e86cd40bff5ee6eae46a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_927626b69a4da903217653ac3b21cc23.setIcon(icon_4b57196c2190e86cd40bff5ee6eae46a);
+        
+    
+            marker_927626b69a4da903217653ac3b21cc23.bindTooltip(
+                `<div>
+                     Prats de Rei
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_995e78328a2790afc0b8249fcbb5333f = L.marker(
+                [41.7167335, 1.4214255],
+                {}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var icon_449d5f18b12c592a515c68b85b729d43 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_995e78328a2790afc0b8249fcbb5333f.setIcon(icon_449d5f18b12c592a515c68b85b729d43);
+        
+    
+            marker_995e78328a2790afc0b8249fcbb5333f.bindTooltip(
+                `<div>
+                     Pujalt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2e9f3a57eebbcdfdf60f74775df22851 = L.marker(
+                [41.7359957, 1.5749439],
+                {}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var icon_01d99057cfe5e78a886350b28f204896 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2e9f3a57eebbcdfdf60f74775df22851.setIcon(icon_01d99057cfe5e78a886350b28f204896);
+        
+    
+            marker_2e9f3a57eebbcdfdf60f74775df22851.bindTooltip(
+                `<div>
+                     Sant Pere Sallavinera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_159deb1935fa3e2d6c331e104c8d2f88 = L.marker(
+                [41.7018468, 1.4912187],
+                {}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            var icon_9f572dd22135d4ccecbecdca0de0f3a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_159deb1935fa3e2d6c331e104c8d2f88.setIcon(icon_9f572dd22135d4ccecbecdca0de0f3a4);
+        
+    
+            marker_159deb1935fa3e2d6c331e104c8d2f88.bindTooltip(
+                `<div>
+                     Sant Martí Sesgueioles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7907614f013ce78e4c7a6ab6c6e4b4e8 = L.polyline(
+                [[41.1415583, 1.2202436], [41.77589330000001, 1.4379359]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            poly_line_7907614f013ce78e4c7a6ab6c6e4b4e8.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Castellfollit de Riubregós
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3817163de5b85b56278c41a8e2837305 = L.polyline(
+                [[41.77589330000001, 1.4379359], [41.7061422, 1.5432601]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            poly_line_3817163de5b85b56278c41a8e2837305.bindTooltip(
+                `<div>
+                     De Castellfollit de Riubregós a Prats de Rei
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b5e29a267bd0e0e3556da3a3bec15d5b = L.polyline(
+                [[41.7061422, 1.5432601], [41.7167335, 1.4214255]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            poly_line_b5e29a267bd0e0e3556da3a3bec15d5b.bindTooltip(
+                `<div>
+                     De Prats de Rei a Pujalt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_61e57f2896d800ab2e0fd61e44f57a2b = L.polyline(
+                [[41.7167335, 1.4214255], [41.7359957, 1.5749439]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            poly_line_61e57f2896d800ab2e0fd61e44f57a2b.bindTooltip(
+                `<div>
+                     De Pujalt a Sant Pere Sallavinera
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_309ad7777c47a5ff7f7b7652f0a2ade8 = L.polyline(
+                [[41.7359957, 1.5749439], [41.7018468, 1.4912187]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            poly_line_309ad7777c47a5ff7f7b7652f0a2ade8.bindTooltip(
+                `<div>
+                     De Sant Pere Sallavinera a Sant Martí Sesgueioles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ab08a12d3068d1c4c14447b34cd78b80 = L.polyline(
+                [[41.7018468, 1.4912187], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_861b1d962ee57bd97190ffd231c166fa);
+        
+    
+            poly_line_ab08a12d3068d1c4c14447b34cd78b80.bindTooltip(
+                `<div>
+                     De Sant Martí Sesgueioles a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

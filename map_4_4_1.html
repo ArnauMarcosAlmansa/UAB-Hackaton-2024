@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c3ac4b0c881d0a071abcedbc1ee37dae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c3ac4b0c881d0a071abcedbc1ee37dae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c3ac4b0c881d0a071abcedbc1ee37dae = L.map(
+                "map_c3ac4b0c881d0a071abcedbc1ee37dae",
+                {
+                    center: [42.00166738800001, 2.7770124080000005],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e0f64d5e12fa2cdc9e948d55cad37ee4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e0f64d5e12fa2cdc9e948d55cad37ee4.addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            var marker_590faca3fc35539d2c180718f6a10c20 = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            var icon_ae559a377b1c1b64723f9df2fbaab658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_590faca3fc35539d2c180718f6a10c20.setIcon(icon_ae559a377b1c1b64723f9df2fbaab658);
+        
+    
+            marker_590faca3fc35539d2c180718f6a10c20.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c7bf09eea20feee801807c1d4b0d706 = L.marker(
+                [42.0363141, 2.6471572],
+                {}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            var icon_e2328334e689b58b1e0f27a28a16baed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c7bf09eea20feee801807c1d4b0d706.setIcon(icon_e2328334e689b58b1e0f27a28a16baed);
+        
+    
+            marker_5c7bf09eea20feee801807c1d4b0d706.bindTooltip(
+                `<div>
+                     Sant Martí de Llémena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_336ea620a8de45641ade767f7518cd93 = L.marker(
+                [41.90452250000001, 2.6841937],
+                {}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            var icon_e1c8b5c068239d182a50f3774caaa570 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_336ea620a8de45641ade767f7518cd93.setIcon(icon_e1c8b5c068239d182a50f3774caaa570);
+        
+    
+            marker_336ea620a8de45641ade767f7518cd93.bindTooltip(
+                `<div>
+                     Brunyola i Sant Martí Sapresa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_984a2009752c2a16a9f3348726c8634a = L.marker(
+                [41.9455163, 2.5566339],
+                {}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            var icon_7a56d9b547f8d451fd779ddc1481a80a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_984a2009752c2a16a9f3348726c8634a.setIcon(icon_7a56d9b547f8d451fd779ddc1481a80a);
+        
+    
+            marker_984a2009752c2a16a9f3348726c8634a.bindTooltip(
+                `<div>
+                     Osor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2abfc86264af9d542c044d73a9764e81 = L.marker(
+                [42.0405288, 2.5052892],
+                {}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            var icon_ab2cdf05c9e9de51b3c7d8fe9d123ebf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2abfc86264af9d542c044d73a9764e81.setIcon(icon_ab2cdf05c9e9de51b3c7d8fe9d123ebf);
+        
+    
+            marker_2abfc86264af9d542c044d73a9764e81.bindTooltip(
+                `<div>
+                     Susqueda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_619f03de143822ba634e3d35c86c7215 = L.polyline(
+                [[41.9347295, 2.8000358], [42.0363141, 2.6471572]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            poly_line_619f03de143822ba634e3d35c86c7215.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Sant Martí de Llémena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3a8c5e7316f691254ddf3bf8452d70ef = L.polyline(
+                [[42.0363141, 2.6471572], [41.90452250000001, 2.6841937]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            poly_line_3a8c5e7316f691254ddf3bf8452d70ef.bindTooltip(
+                `<div>
+                     De Sant Martí de Llémena a Brunyola i Sant Martí Sapresa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_05a589b82f53cfbf06d7260f19a91162 = L.polyline(
+                [[41.90452250000001, 2.6841937], [41.9455163, 2.5566339]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            poly_line_05a589b82f53cfbf06d7260f19a91162.bindTooltip(
+                `<div>
+                     De Brunyola i Sant Martí Sapresa a Osor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_cf80db00471074d1502651465b4c0087 = L.polyline(
+                [[41.9455163, 2.5566339], [42.0405288, 2.5052892]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            poly_line_cf80db00471074d1502651465b4c0087.bindTooltip(
+                `<div>
+                     De Osor a Susqueda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a76b58cbf5a860613894ed8ae32bf84a = L.polyline(
+                [[42.0405288, 2.5052892], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c3ac4b0c881d0a071abcedbc1ee37dae);
+        
+    
+            poly_line_a76b58cbf5a860613894ed8ae32bf84a.bindTooltip(
+                `<div>
+                     De Susqueda a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

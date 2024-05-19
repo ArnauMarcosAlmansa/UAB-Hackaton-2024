@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_46644a390815e7aef208fc5ae175f1ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_46644a390815e7aef208fc5ae175f1ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_46644a390815e7aef208fc5ae175f1ba = L.map(
+                "map_46644a390815e7aef208fc5ae175f1ba",
+                {
+                    center: [42.00166738800001, 2.7770124080000005],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9da60f09e73f9b6bdbaddc05d4c8717 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b9da60f09e73f9b6bdbaddc05d4c8717.addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var marker_06d56c285d9647871cc11f35652b404a = L.marker(
+                [41.9347295, 2.8000358],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_1a5092082c09ea8f56635b239577b6cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06d56c285d9647871cc11f35652b404a.setIcon(icon_1a5092082c09ea8f56635b239577b6cd);
+        
+    
+            marker_06d56c285d9647871cc11f35652b404a.bindTooltip(
+                `<div>
+                     Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7459c270127b50880198776e216730df = L.marker(
+                [42.1251497, 2.6875517],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_5a7c4e74038f62ba7799cfd949518545 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7459c270127b50880198776e216730df.setIcon(icon_5a7c4e74038f62ba7799cfd949518545);
+        
+    
+            marker_7459c270127b50880198776e216730df.bindTooltip(
+                `<div>
+                     Sant Miquel de
+Campmajor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f0423c018921485b198cf5eed4eca5e6 = L.marker(
+                [42.094148, 2.7670699],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_9ed2466e0355e01e092a300f9615eef6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f0423c018921485b198cf5eed4eca5e6.setIcon(icon_9ed2466e0355e01e092a300f9615eef6);
+        
+    
+            marker_f0423c018921485b198cf5eed4eca5e6.bindTooltip(
+                `<div>
+                     Camós
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94ea6f98769b11be9dad336f7146cb08 = L.marker(
+                [42.017653, 2.9079214],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_5cc3b51091d08645cd70eb03fb6ffcee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_94ea6f98769b11be9dad336f7146cb08.setIcon(icon_5cc3b51091d08645cd70eb03fb6ffcee);
+        
+    
+            marker_94ea6f98769b11be9dad336f7146cb08.bindTooltip(
+                `<div>
+                     Juià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f630d7daa667ed9735709645eac08ce3 = L.marker(
+                [42.0201769, 2.9307448],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_a4f73545e9079c24ff37d46279abad10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f630d7daa667ed9735709645eac08ce3.setIcon(icon_a4f73545e9079c24ff37d46279abad10);
+        
+    
+            marker_f630d7daa667ed9735709645eac08ce3.bindTooltip(
+                `<div>
+                     Sant Martí Vell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_427bff40e3a572e692a03dd8e0e22281 = L.marker(
+                [41.9900627, 2.9572535],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_c92f44e1d34fdd0756b225eb8c020428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_427bff40e3a572e692a03dd8e0e22281.setIcon(icon_c92f44e1d34fdd0756b225eb8c020428);
+        
+    
+            marker_427bff40e3a572e692a03dd8e0e22281.bindTooltip(
+                `<div>
+                     Madremanya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8fc2f88fd467aa265aea3d941789ae0 = L.marker(
+                [42.0461613, 2.9419453],
+                {}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            var icon_47b0f216c692642393f150075ef02fc0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8fc2f88fd467aa265aea3d941789ae0.setIcon(icon_47b0f216c692642393f150075ef02fc0);
+        
+    
+            marker_b8fc2f88fd467aa265aea3d941789ae0.bindTooltip(
+                `<div>
+                     Sant Joan de Mollet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_187796c37c35f28d5e9489220d574844 = L.polyline(
+                [[41.9347295, 2.8000358], [42.1251497, 2.6875517]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_187796c37c35f28d5e9489220d574844.bindTooltip(
+                `<div>
+                     De Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona a Sant Miquel de
+Campmajor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_177f1f807dd81323aa2e5535569caafd = L.polyline(
+                [[42.1251497, 2.6875517], [42.094148, 2.7670699]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_177f1f807dd81323aa2e5535569caafd.bindTooltip(
+                `<div>
+                     De Sant Miquel de
+Campmajor a Camós
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_efc0cc82fc2dc4169700d66fe093a4f0 = L.polyline(
+                [[42.094148, 2.7670699], [42.017653, 2.9079214]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_efc0cc82fc2dc4169700d66fe093a4f0.bindTooltip(
+                `<div>
+                     De Camós a Juià
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_d9836d081f72ce57aed78ff92b9a1ab9 = L.polyline(
+                [[42.017653, 2.9079214], [42.0201769, 2.9307448]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_d9836d081f72ce57aed78ff92b9a1ab9.bindTooltip(
+                `<div>
+                     De Juià a Sant Martí Vell
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_24642c2490c03ad8ff87067232eeb930 = L.polyline(
+                [[42.0201769, 2.9307448], [41.9900627, 2.9572535]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_24642c2490c03ad8ff87067232eeb930.bindTooltip(
+                `<div>
+                     De Sant Martí Vell a Madremanya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ed211f04b2c34159b990fca673943c2d = L.polyline(
+                [[41.9900627, 2.9572535], [42.0461613, 2.9419453]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_ed211f04b2c34159b990fca673943c2d.bindTooltip(
+                `<div>
+                     De Madremanya a Sant Joan de Mollet
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9dc77ba5ae6f8cc7afc99fdde4862cae = L.polyline(
+                [[42.0461613, 2.9419453], [41.9347295, 2.8000358]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_46644a390815e7aef208fc5ae175f1ba);
+        
+    
+            poly_line_9dc77ba5ae6f8cc7afc99fdde4862cae.bindTooltip(
+                `<div>
+                     De Sant Joan de Mollet a Carrer Indústria, 0, 17457 Riudellots de la Selva, Girona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

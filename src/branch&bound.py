@@ -147,7 +147,7 @@ def TSP(adj, estancia):
 	# We start at vertex 1 so the first vertex 
 	# in curr_path[] is 0
 	visited[0] = True
-	curr_path[0] = 0
+	curr_path[0] = 0	
 
 	# Call to TSPRec for curr_weight 
 	# equal to 0 and level 1
@@ -171,6 +171,7 @@ visited = [False] * N
 final_res = maxsize
 
 dist = np.load("./data/2_1.npy")
+print(dist)
 #Distancia de inicio a los demas
 inici_dist = np.load("./data/tarragona_2_1.npy")
 print(inici_dist)

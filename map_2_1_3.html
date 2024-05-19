@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b089391a700a0c4ad33ba05163ea9e87 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b089391a700a0c4ad33ba05163ea9e87" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b089391a700a0c4ad33ba05163ea9e87 = L.map(
+                "map_b089391a700a0c4ad33ba05163ea9e87",
+                {
+                    center: [41.58599656333333, 1.4764925133333333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b6556165b88b52440e6295af6d37c32b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b6556165b88b52440e6295af6d37c32b.addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var marker_c09dffb5fc5d489acca2fd9feea1ae6d = L.marker(
+                [41.1415583, 1.2202436],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_8e5c4177e6031fe6c25f64a727ab8692 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c09dffb5fc5d489acca2fd9feea1ae6d.setIcon(icon_8e5c4177e6031fe6c25f64a727ab8692);
+        
+    
+            marker_c09dffb5fc5d489acca2fd9feea1ae6d.bindTooltip(
+                `<div>
+                     Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8e9d0cbc1ceea0712cae0f6876cf96a8 = L.marker(
+                [41.5243069, 1.6614947],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_341575165b6d2c3bc5418e8422c30c63 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8e9d0cbc1ceea0712cae0f6876cf96a8.setIcon(icon_341575165b6d2c3bc5418e8422c30c63);
+        
+    
+            marker_8e9d0cbc1ceea0712cae0f6876cf96a8.bindTooltip(
+                `<div>
+                     Torre de Claramunt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57011c74d196a59c78d8dbe05b6cc5b1 = L.marker(
+                [41.5318282, 1.6203468],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_c4a75498d5e8a814064f15d1cc050f90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_57011c74d196a59c78d8dbe05b6cc5b1.setIcon(icon_c4a75498d5e8a814064f15d1cc050f90);
+        
+    
+            marker_57011c74d196a59c78d8dbe05b6cc5b1.bindTooltip(
+                `<div>
+                     Carme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6317d9ccaf9c95fa9c2eab86cac711c1 = L.marker(
+                [41.4947086, 1.5267342],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_263be9c5a25abb84f0625b2ffabc1f60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6317d9ccaf9c95fa9c2eab86cac711c1.setIcon(icon_263be9c5a25abb84f0625b2ffabc1f60);
+        
+    
+            marker_6317d9ccaf9c95fa9c2eab86cac711c1.bindTooltip(
+                `<div>
+                     Santa Maria de Miralles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7765341009aeac301bc74aa0550dafa5 = L.marker(
+                [41.4717328, 1.5323625],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_b9516d7efd83f4a630a127336ac48629 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7765341009aeac301bc74aa0550dafa5.setIcon(icon_b9516d7efd83f4a630a127336ac48629);
+        
+    
+            marker_7765341009aeac301bc74aa0550dafa5.bindTooltip(
+                `<div>
+                     Llacuna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e550300913084336c4237d2b5c32e82 = L.marker(
+                [41.51811310000001, 1.2912103],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_aa8351f214946fb2e18f4f97ce358447 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e550300913084336c4237d2b5c32e82.setIcon(icon_aa8351f214946fb2e18f4f97ce358447);
+        
+    
+            marker_1e550300913084336c4237d2b5c32e82.bindTooltip(
+                `<div>
+                     Conesa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58028cf11cbafad183d46ab620ec777e = L.marker(
+                [41.4785434, 1.2812797],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_049171c1ac81c073aacdbb4f3d9617a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_58028cf11cbafad183d46ab620ec777e.setIcon(icon_049171c1ac81c073aacdbb4f3d9617a2);
+        
+    
+            marker_58028cf11cbafad183d46ab620ec777e.bindTooltip(
+                `<div>
+                     Rocafort de Queralt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_436045df8adce3c8b7635eb1d9bb030f = L.marker(
+                [41.4745038, 1.2506002],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_da4422c10be2bf9fca6c6be7c2897b67 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_436045df8adce3c8b7635eb1d9bb030f.setIcon(icon_da4422c10be2bf9fca6c6be7c2897b67);
+        
+    
+            marker_436045df8adce3c8b7635eb1d9bb030f.bindTooltip(
+                `<div>
+                     Piles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a1f9b8d7acba15b4a2605e07ea404f2 = L.marker(
+                [41.4924767, 1.23587],
+                {}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            var icon_994124e930c44afd3318aec1510fbecb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a1f9b8d7acba15b4a2605e07ea404f2.setIcon(icon_994124e930c44afd3318aec1510fbecb);
+        
+    
+            marker_5a1f9b8d7acba15b4a2605e07ea404f2.bindTooltip(
+                `<div>
+                     Forès
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4bf0eb0e5d50b3addaf33d05b3c8e1f7 = L.polyline(
+                [[41.1415583, 1.2202436], [41.5243069, 1.6614947]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_4bf0eb0e5d50b3addaf33d05b3c8e1f7.bindTooltip(
+                `<div>
+                     De Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona a Torre de Claramunt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e262e932db3519c5c2a49a6e4094088b = L.polyline(
+                [[41.5243069, 1.6614947], [41.5318282, 1.6203468]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_e262e932db3519c5c2a49a6e4094088b.bindTooltip(
+                `<div>
+                     De Torre de Claramunt a Carme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_aa610125738af86609306b4a06b7d64b = L.polyline(
+                [[41.5318282, 1.6203468], [41.4947086, 1.5267342]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_aa610125738af86609306b4a06b7d64b.bindTooltip(
+                `<div>
+                     De Carme a Santa Maria de Miralles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bdf31045aa4ca665c9077ee887036d91 = L.polyline(
+                [[41.4947086, 1.5267342], [41.4717328, 1.5323625]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_bdf31045aa4ca665c9077ee887036d91.bindTooltip(
+                `<div>
+                     De Santa Maria de Miralles a Llacuna
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9397e623ab3689951f4be4c0c6978e0a = L.polyline(
+                [[41.4717328, 1.5323625], [41.51811310000001, 1.2912103]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_9397e623ab3689951f4be4c0c6978e0a.bindTooltip(
+                `<div>
+                     De Llacuna a Conesa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4c4ed4c3ff189f0f80d93772a22b9601 = L.polyline(
+                [[41.51811310000001, 1.2912103], [41.4785434, 1.2812797]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_4c4ed4c3ff189f0f80d93772a22b9601.bindTooltip(
+                `<div>
+                     De Conesa a Rocafort de Queralt
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_7b8fcdb9039a36b588c2912afa2ba6ee = L.polyline(
+                [[41.4785434, 1.2812797], [41.4745038, 1.2506002]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_7b8fcdb9039a36b588c2912afa2ba6ee.bindTooltip(
+                `<div>
+                     De Rocafort de Queralt a Piles
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_9c5872db102f94edcd6b271f26c4dad8 = L.polyline(
+                [[41.4745038, 1.2506002], [41.4924767, 1.23587]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_9c5872db102f94edcd6b271f26c4dad8.bindTooltip(
+                `<div>
+                     De Piles a Forès
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b44558eeac67c796e03012e99fcebef9 = L.polyline(
+                [[41.4924767, 1.23587], [41.1415583, 1.2202436]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b089391a700a0c4ad33ba05163ea9e87);
+        
+    
+            poly_line_b44558eeac67c796e03012e99fcebef9.bindTooltip(
+                `<div>
+                     De Forès a Pol. Industrial Riu Clar C/Sofre, parcel·la 131 – nau 30 43006 Tarragona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
