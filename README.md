@@ -18,7 +18,7 @@ Per abordar aquest repte, hem utilitzat l'algoritme de Branch&Bound per obtenir 
 
 ![alt text](https://github.com/ArnauMarcosAlmansa/UAB-Hackaton-2024/blob/master/img/B%26B.png "Exemple de funcionament de B&B")
 
-El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src/run_bandb.py', el qual importa les funcions dels arxius 'src/algorithms/bandb.py' i 'src/algorithms/workday_splitting.py'. Gràcies a això, podem obtenir un camí òptim i dividir-lo en camins més petits per tal que es puguin implementar en els dies i les hores laborables.
+El codi general que executem per obtenir un camí òptim es troba a l'arxiu 'src/run_bandb.py', el qual importa les funcions dels arxius 'src/algorithms/bandb.py' i 'src/algorithms/workday_splitting.py'. Dins de l'algoritme de B&B, tenim una funció en la qual implementem un algoritme Greedy per crear una base en la qual l'algoritme B&B pugui treballar. Gràcies a això, podem obtenir un camí òptim i dividir-lo en camins més petits per tal que es puguin implementar en els dies i les hores laborables.
 
 ## Resultats
 Gràcies a l'arxiu anteriorment esmentat, 'src/run_bandb.py', també podem visualitzar el camí resultant en un fitxer '.html':
@@ -45,3 +45,10 @@ Gràcies a l'arxiu anteriorment esmentat, 'src/run_bandb.py', també podem visua
 Per visualitzar aquests resultats, has d'executar la següent línia de comandament en la terminal: <br>
 `& C:/Users/chocl/AppData/Local/Microsoft/WindowsApps/python3.11.exe -m src.run_bandb` <br>
 Això començarà a mostrar les imatges en format '.html' al teu navegador.
+
+## Colaboradors
+
+Arnau Marcos Almansa <br>
+Javier Alejandro Camacho Machaca <br>
+Andrei Azarin Podolchuk <br>
+Oscar Pocurull Rodriguez <br>
